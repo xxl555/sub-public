@@ -59,7 +59,7 @@
           }
         }
       },
-      "tag": "🇨🇱 Чили | VLESS WS"
+      "tag": "VLESS platform103.golnamakcert.top:80"
     },
     {
       "mux": {
@@ -100,7 +100,7 @@
           "show": false
         }
       },
-      "tag": "🇮🇳 Индия | VLESS TCP Reality"
+      "tag": "VLESS 194.61.31.126:2053"
     },
     {
       "mux": {
@@ -139,7 +139,7 @@
           "show": false
         }
       },
-      "tag": "🇱🇻 Латвия | VLESS TCP TLS"
+      "tag": "VLESS 87.192.47.10:52006"
     },
     {
       "mux": {
@@ -180,7 +180,7 @@
           "show": false
         }
       },
-      "tag": "🇨🇿 Чехия | VLESS TCP Reality"
+      "tag": "VLESS 31.76.7.227:443"
     },
     {
       "mux": null,
@@ -209,7 +209,7 @@
           "quicParams": {}
         }
       },
-      "tag": "🇹🇼 Тайвань | HYSTERIA2 UDP"
+      "tag": "HYSTERIA vpn-tw-002.fastervpn.world:443"
     },
     {
       "mux": {
@@ -250,7 +250,7 @@
           "show": false
         }
       },
-      "tag": "🇷🇺 Россия | VLESS XHTTP Reality"
+      "tag": "VLESS de-1.avroraservice.online:8443"
     },
     {
       "mux": {
@@ -283,7 +283,7 @@
           "show": false
         }
       },
-      "tag": "🇵🇱 Польша | TROJAN TCP TLS"
+      "tag": "Trojan pl.tronsg.com:443"
     },
     {
       "mux": {
@@ -324,7 +324,7 @@
           "show": false
         }
       },
-      "tag": "🇱🇹 Литва | VLESS TCP Reality"
+      "tag": "VLESS 84.32.215.96:443"
     },
     {
       "mux": {
@@ -356,7 +356,7 @@
           "health_check_timeout": 20
         }
       },
-      "tag": "🇬🇧 Англия | VLESS gRPC"
+      "tag": "VLESS 66.90.105.211:2083"
     },
     {
       "mux": {
@@ -386,7 +386,7 @@
           "path": "/"
         }
       },
-      "tag": "🇵🇱 Польша | VLESS WS"
+      "tag": "VLESS 70.34.255.101:80"
     },
     {
       "mux": {
@@ -418,7 +418,7 @@
           "show": false
         }
       },
-      "tag": "🇮🇪 Ирландия | TROJAN TCP TLS"
+      "tag": "Trojan loved-shark.rooster465.autos:443"
     },
     {
       "mux": {
@@ -460,7 +460,7 @@
           ]
         }
       },
-      "tag": "🇵🇱 Польша | VLESS TCP TLS"
+      "tag": "VLESS 179.254.71.20:52006"
     },
     {
       "mux": {
@@ -492,7 +492,7 @@
           "show": false
         }
       },
-      "tag": "🇵🇱 Польша | TROJAN TCP TLS (2)"
+      "tag": "Trojan cheerful-swan.rooster465.autos:443"
     },
     {
       "mux": {
@@ -533,7 +533,7 @@
           "health_check_timeout": 20
         }
       },
-      "tag": "🇧🇬 Болгария | VLESS gRPC Reality"
+      "tag": "VLESS bg5.univesalsrv.com:443"
     },
     {
       "mux": {
@@ -565,7 +565,7 @@
           }
         }
       },
-      "tag": "🇩🇪 Германия | VLESS TCP"
+      "tag": "VLESS milo.rubinaz.xyz:8080"
     },
     {
       "mux": {
@@ -606,7 +606,7 @@
           "health_check_timeout": 20
         }
       },
-      "tag": "🇧🇬 Болгария | VLESS gRPC Reality (2)"
+      "tag": "VLESS bg4.univesalsrv.com:443"
     },
     {
       "mux": {
@@ -648,7 +648,7 @@
           "health_check_timeout": 20
         }
       },
-      "tag": "🇧🇬 Болгария | VLESS gRPC Reality (3)"
+      "tag": "VLESS bg4.univesalsrv.com:443 (2)"
     },
     {
       "mux": {
@@ -689,7 +689,7 @@
           "health_check_timeout": 20
         }
       },
-      "tag": "🇷🇸 Сербия | VLESS gRPC Reality"
+      "tag": "VLESS rs1.univesalsrv.com:443"
     },
     {
       "mux": {
@@ -721,7 +721,7 @@
           }
         }
       },
-      "tag": "🇬🇧 Англия | VLESS TCP"
+      "tag": "VLESS test.keoplentuio.xyz:2053"
     },
     {
       "mux": {
@@ -762,7 +762,7 @@
           "health_check_timeout": 20
         }
       },
-      "tag": "🇲🇩 Молдова | VLESS gRPC Reality"
+      "tag": "VLESS md1.univesalsrv.com:443"
     },
     {
       "mux": {
@@ -792,7 +792,7 @@
           "path": "/platform102"
         }
       },
-      "tag": "🇨🇱 Чили | VLESS WS (2)"
+      "tag": "VLESS platform102.golnamakcert.top:80"
     },
     {
       "mux": {
@@ -824,7 +824,7 @@
           "show": false
         }
       },
-      "tag": "🇮🇳 Индия | TROJAN TCP TLS"
+      "tag": "Trojan hyfuuf6.wsone.icu:443"
     },
     {
       "mux": {
@@ -865,7 +865,7 @@
           "health_check_timeout": 20
         }
       },
-      "tag": "🇲🇩 Молдова | VLESS gRPC Reality (2)"
+      "tag": "VLESS md3.univesalsrv.com:443"
     },
     {
       "mux": {
@@ -895,7 +895,7 @@
           "path": "/platform113"
         }
       },
-      "tag": "🇨🇱 Чили | VLESS WS (3)"
+      "tag": "VLESS platform113.golnamakcert.top:80"
     },
     {
       "mux": {
@@ -936,7 +936,7 @@
           "health_check_timeout": 20
         }
       },
-      "tag": "🇲🇩 Молдова | VLESS gRPC Reality (3)"
+      "tag": "VLESS md2.univesalsrv.com:443"
     },
     {
       "mux": {
@@ -977,7 +977,7 @@
           "health_check_timeout": 20
         }
       },
-      "tag": "🇲🇩 Молдова | VLESS gRPC Reality (4)"
+      "tag": "VLESS md4.univesalsrv.com:443"
     },
     {
       "mux": {
@@ -1018,7 +1018,7 @@
           "health_check_timeout": 20
         }
       },
-      "tag": "🇲🇩 Молдова | VLESS gRPC Reality (5)"
+      "tag": "VLESS md2.univesalsrv.com:443 (2)"
     },
     {
       "mux": {
@@ -1050,7 +1050,7 @@
           "show": false
         }
       },
-      "tag": "🇯🇵 Япония | TROJAN TCP TLS"
+      "tag": "Trojan fancy-javelin.rooster465.autos:443"
     },
     {
       "mux": {
@@ -1082,7 +1082,7 @@
           "show": false
         }
       },
-      "tag": "🇰🇷 Корея | TROJAN TCP TLS"
+      "tag": "Trojan kind-stork.rooster465.autos:443"
     },
     {
       "mux": {
@@ -1114,7 +1114,7 @@
           "show": false
         }
       },
-      "tag": "🇰🇷 Корея | TROJAN TCP TLS (2)"
+      "tag": "Trojan liked-eft.rooster465.autos:443"
     },
     {
       "mux": {
@@ -1151,7 +1151,7 @@
           "spiderX": "/HesarWeb"
         }
       },
-      "tag": "🇯🇵 Япония | VLESS RAW Reality"
+      "tag": "VLESS 142.91.106.31:43000"
     },
     {
       "mux": {
@@ -1183,7 +1183,7 @@
           "show": false
         }
       },
-      "tag": "🇯🇵 Япония | TROJAN TCP TLS (2)"
+      "tag": "Trojan obliging-louse.rooster465.autos:443"
     },
     {
       "mux": {
@@ -1215,7 +1215,7 @@
           "show": false
         }
       },
-      "tag": "🇸🇬 Сингапур | TROJAN TCP TLS"
+      "tag": "Trojan desired-boxer.rooster465.autos:443"
     },
     {
       "mux": null,
@@ -1244,7 +1244,7 @@
           "quicParams": {}
         }
       },
-      "tag": "🇷🇺 Россия | HYSTERIA2 UDP"
+      "tag": "HYSTERIA 45.151.101.97:2443"
     },
     {
       "mux": {
@@ -1284,7 +1284,7 @@
           "show": false
         }
       },
-      "tag": "🇫🇷 Франция | VLESS TCP Reality"
+      "tag": "VLESS 62.210.91.2:23576"
     },
     {
       "mux": {
@@ -1323,7 +1323,7 @@
           "show": false
         }
       },
-      "tag": "🇪🇪 Эстония | VLESS TCP TLS"
+      "tag": "VLESS 94.183.170.135:8443"
     },
     {
       "mux": {
@@ -1353,7 +1353,7 @@
           "path": "/"
         }
       },
-      "tag": "🇵🇱 Польша | VLESS WS (2)"
+      "tag": "VLESS 70.34.252.154:80"
     },
     {
       "mux": {
@@ -1392,7 +1392,7 @@
           "show": false
         }
       },
-      "tag": "🇫🇷 Франция | VLESS TCP Reality (2)"
+      "tag": "VLESS 62.210.91.2:23576 (2)"
     },
     {
       "mux": {
@@ -1434,7 +1434,7 @@
           "spiderX": "/"
         }
       },
-      "tag": "🇫🇮 Финляндия | VLESS TCP Reality"
+      "tag": "VLESS 13.143.166.25:443"
     },
     {
       "mux": {
@@ -1475,7 +1475,7 @@
           "show": false
         }
       },
-      "tag": "🇸🇪 Швеция | VLESS TCP Reality"
+      "tag": "VLESS 193.148.59.178:443"
     },
     {
       "mux": {
@@ -1516,7 +1516,7 @@
           ]
         }
       },
-      "tag": "🇫🇷 Франция | VLESS TCP TLS"
+      "tag": "VLESS 31.77.227.10:52006"
     },
     {
       "mux": {
@@ -1557,7 +1557,7 @@
           "show": false
         }
       },
-      "tag": "🇫🇮 Финляндия | VLESS TCP Reality (2)"
+      "tag": "VLESS 177.3.214.52:443"
     },
     {
       "mux": {
@@ -1598,7 +1598,7 @@
           "show": false
         }
       },
-      "tag": "🇫🇮 Финляндия | VLESS TCP Reality (3)"
+      "tag": "VLESS 177.3.214.52:443 (2)"
     },
     {
       "mux": {
@@ -1639,7 +1639,7 @@
           ]
         }
       },
-      "tag": "🇱🇻 Латвия | VLESS TCP TLS (2)"
+      "tag": "VLESS 87.192.47.10:52006 (2)"
     },
     {
       "mux": {
@@ -1683,7 +1683,7 @@
           ]
         }
       },
-      "tag": "🇩🇪 Германия | VLESS WS TLS"
+      "tag": "VLESS de-1.srv.dvzh.net:443"
     },
     {
       "mux": {
@@ -1725,7 +1725,7 @@
           "spiderX": "/"
         }
       },
-      "tag": "🇫🇷 Франция | VLESS TCP Reality (3)"
+      "tag": "VLESS 137.74.16.237:443"
     },
     {
       "mux": {
@@ -1766,7 +1766,7 @@
           "show": false
         }
       },
-      "tag": "🇫🇮 Финляндия | VLESS TCP Reality (4)"
+      "tag": "VLESS 177.3.214.52:443 (3)"
     },
     {
       "mux": {
@@ -1807,7 +1807,7 @@
           "show": false
         }
       },
-      "tag": "🇩🇪 Германия | VLESS TCP Reality"
+      "tag": "VLESS 150.241.101.17:8443"
     },
     {
       "mux": {
@@ -1839,7 +1839,7 @@
           "show": false
         }
       },
-      "tag": "🇩🇪 Германия | TROJAN TCP TLS"
+      "tag": "Trojan meet-goshawk.rooster465.autos:443"
     },
     {
       "mux": {
@@ -1880,7 +1880,7 @@
           "show": false
         }
       },
-      "tag": "🇫🇮 Финляндия | VLESS TCP Reality (5)"
+      "tag": "VLESS 157.228.128.59:443"
     },
     {
       "mux": {
@@ -1921,7 +1921,7 @@
           "health_check_timeout": 20
         }
       },
-      "tag": "🇧🇬 Болгария | VLESS gRPC Reality (4)"
+      "tag": "VLESS bg2.univesalsrv.com:443"
     },
     {
       "mux": {
@@ -1962,7 +1962,7 @@
           "show": false
         }
       },
-      "tag": "🇹🇷 Турция | VLESS TCP Reality"
+      "tag": "VLESS 151.241.226.201:2053"
     },
     {
       "mux": {
@@ -1998,7 +1998,7 @@
           "show": false
         }
       },
-      "tag": "🇷🇴 Румыния | VLESS RAW Reality"
+      "tag": "VLESS 46.28.67.55:443"
     },
     {
       "mux": {
@@ -2039,7 +2039,7 @@
           "show": false
         }
       },
-      "tag": "🇹🇷 Турция | VLESS TCP Reality (2)"
+      "tag": "VLESS 151.241.226.201:2053 (2)"
     },
     {
       "mux": {
@@ -2080,7 +2080,7 @@
           "health_check_timeout": 20
         }
       },
-      "tag": "🇧🇬 Болгария | VLESS gRPC Reality (5)"
+      "tag": "VLESS bg5.univesalsrv.com:443 (2)"
     },
     {
       "mux": {
@@ -2121,7 +2121,7 @@
           "health_check_timeout": 20
         }
       },
-      "tag": "🇷🇸 Сербия | VLESS gRPC Reality (2)"
+      "tag": "VLESS rs1.univesalsrv.com:443 (2)"
     },
     {
       "mux": {
@@ -2163,7 +2163,7 @@
           "health_check_timeout": 20
         }
       },
-      "tag": "🇷🇸 Сербия | VLESS gRPC Reality (3)"
+      "tag": "VLESS rs4.univesalsrv.com:443"
     },
     {
       "mux": {
@@ -2204,7 +2204,7 @@
           "health_check_timeout": 20
         }
       },
-      "tag": "🇷🇸 Сербия | VLESS gRPC Reality (4)"
+      "tag": "VLESS rs3.univesalsrv.com:443"
     },
     {
       "mux": {
@@ -2245,7 +2245,7 @@
           "show": false
         }
       },
-      "tag": "🇮🇳 Индия | VLESS TCP Reality (2)"
+      "tag": "VLESS 148.113.5.44:443"
     },
     {
       "mux": {
@@ -2286,7 +2286,7 @@
           "show": false
         }
       },
-      "tag": "🇪🇪 Эстония | VLESS TCP Reality"
+      "tag": "VLESS 95.85.224.51:443"
     },
     {
       "mux": {
@@ -2326,7 +2326,7 @@
           "show": false
         }
       },
-      "tag": "🇪🇪 Эстония | VLESS WS TLS"
+      "tag": "VLESS 194.26.141.148:8443"
     },
     {
       "mux": {
@@ -2367,7 +2367,7 @@
           "health_check_timeout": 20
         }
       },
-      "tag": "🇺🇸 США | VLESS gRPC Reality"
+      "tag": "VLESS us1.jetservaki.fit:443"
     },
     {
       "mux": {
@@ -2408,7 +2408,7 @@
           "show": false
         }
       },
-      "tag": "🇬🇧 Англия | VLESS TCP Reality"
+      "tag": "VLESS 3.9.135.156:51847"
     },
     {
       "mux": {
@@ -2449,7 +2449,7 @@
           "show": false
         }
       },
-      "tag": "🇷🇺 Россия | VLESS TCP Reality"
+      "tag": "VLESS 193.163.203.253:443"
     },
     {
       "mux": {
@@ -2490,7 +2490,7 @@
           "show": false
         }
       },
-      "tag": "🇩🇪 Германия | VLESS TCP Reality (2)"
+      "tag": "VLESS 150.241.101.80:8443"
     },
     {
       "mux": {
@@ -2526,7 +2526,7 @@
           "show": false
         }
       },
-      "tag": "🇷🇺 Россия | VLESS RAW Reality"
+      "tag": "VLESS bl3fk52.sysopnova.art:443"
     },
     {
       "mux": {
@@ -2559,7 +2559,7 @@
           }
         }
       },
-      "tag": "🇳🇱 Нидерланды | VLESS WS"
+      "tag": "VLESS sc-thenetherlands1.09vpn.com:80"
     },
     {
       "mux": {
@@ -2598,7 +2598,7 @@
           "health_check_timeout": 20
         }
       },
-      "tag": "🇫🇷 Франция | VLESS gRPC TLS"
+      "tag": "VLESS 143.246.208.113:443"
     },
     {
       "mux": {
@@ -2639,7 +2639,7 @@
           "show": false
         }
       },
-      "tag": "🇬🇧 Англия | VLESS TCP Reality (2)"
+      "tag": "VLESS 51.89.194.151:2053"
     },
     {
       "mux": {
@@ -2671,7 +2671,7 @@
           "show": false
         }
       },
-      "tag": "🇸🇬 Сингапур | TROJAN TCP TLS (2)"
+      "tag": "Trojan pet-antelope.rooster465.autos:443"
     },
     {
       "mux": {
@@ -2703,7 +2703,7 @@
           "show": false
         }
       },
-      "tag": "🇰🇷 Корея | TROJAN TCP TLS (3)"
+      "tag": "Trojan engaging-toucan.rooster465.autos:443"
     },
     {
       "mux": {
@@ -2735,7 +2735,7 @@
           "show": false
         }
       },
-      "tag": "🇰🇷 Корея | TROJAN TCP TLS (4)"
+      "tag": "Trojan balanced-stag.rooster465.autos:443"
     },
     {
       "mux": {
@@ -2767,7 +2767,7 @@
           "show": false
         }
       },
-      "tag": "🇸🇬 Сингапур | TROJAN TCP TLS (3)"
+      "tag": "Trojan glowing-marmoset.rooster465.autos:443"
     },
     {
       "mux": {
@@ -2808,7 +2808,7 @@
           "show": false
         }
       },
-      "tag": "🇸🇬 Сингапур | VLESS TCP Reality"
+      "tag": "VLESS 46.137.202.178:12512"
     },
     {
       "mux": {
@@ -2849,7 +2849,7 @@
           "show": false
         }
       },
-      "tag": "🇷🇺 Россия | VLESS TCP Reality (2)"
+      "tag": "VLESS 193.163.203.170:443"
     },
     {
       "mux": {
@@ -2890,7 +2890,7 @@
           "show": false
         }
       },
-      "tag": "🇰🇷 Корея | VLESS TCP Reality"
+      "tag": "VLESS 3.39.4.109:13672"
     },
     {
       "mux": {
@@ -2931,7 +2931,7 @@
           "show": false
         }
       },
-      "tag": "🇦🇺 Австралия | VLESS TCP Reality"
+      "tag": "VLESS 34.87.244.111:443"
     },
     {
       "mux": {
@@ -2972,7 +2972,7 @@
           "health_check_timeout": 20
         }
       },
-      "tag": "🇷🇸 Сербия | VLESS gRPC Reality (5)"
+      "tag": "VLESS rs5.univesalsrv.com:443"
     },
     {
       "mux": {
@@ -3013,7 +3013,7 @@
           ]
         }
       },
-      "tag": "🇳🇱 Нидерланды | VLESS WS TLS"
+      "tag": "VLESS nl-1.srv.dvzh.net:443"
     },
     {
       "mux": {
@@ -3054,7 +3054,7 @@
           "show": false
         }
       },
-      "tag": "🇳🇱 Нидерланды | VLESS TCP Reality"
+      "tag": "VLESS nl-2.srv.dvzh.net:443"
     },
     {
       "mux": {
@@ -3084,7 +3084,7 @@
           "path": "/pyip=ProxyIP.JP.CMLiussss.net"
         }
       },
-      "tag": "🇨🇦 Канада | VLESS WS"
+      "tag": "VLESS long-boat-7113.303-08c.workers.dev:8880"
     },
     {
       "mux": {
@@ -3126,7 +3126,7 @@
           "spiderX": "/"
         }
       },
-      "tag": "🇳🇱 Нидерланды | VLESS TCP Reality (2)"
+      "tag": "VLESS 64.188.126.56:43000"
     },
     {
       "mux": {
@@ -3156,7 +3156,7 @@
           "path": "/pyip=ProxyIP.JP.CMLiussss.net"
         }
       },
-      "tag": "🇨🇦 Канада | VLESS WS (2)"
+      "tag": "VLESS rough-mouse-2a3a.424-e94.workers.dev:8880"
     },
     {
       "mux": {
@@ -3200,7 +3200,7 @@
           ]
         }
       },
-      "tag": "🇳🇱 Нидерланды | VLESS WS TLS (2)"
+      "tag": "VLESS nl-1.srv.dvzh.net:443 (2)"
     },
     {
       "mux": {
@@ -3232,7 +3232,7 @@
           "show": false
         }
       },
-      "tag": "🇺🇸 США | TROJAN TCP TLS"
+      "tag": "Trojan ultimate-jaguar.rooster465.autos:443"
     },
     {
       "mux": {
@@ -3264,7 +3264,7 @@
           "show": false
         }
       },
-      "tag": "🇺🇸 США | TROJAN TCP TLS (2)"
+      "tag": "Trojan happy-gibbon.rooster465.autos:443"
     },
     {
       "mux": {
@@ -3296,7 +3296,7 @@
           "show": false
         }
       },
-      "tag": "🇯🇵 Япония | TROJAN TCP TLS (3)"
+      "tag": "Trojan accurate-frog.rooster465.autos:443"
     },
     {
       "mux": {
@@ -3326,7 +3326,7 @@
           "path": "/pyip=ProxyIP.KR.CMLiussss.net"
         }
       },
-      "tag": "🇨🇦 Канада | VLESS WS (3)"
+      "tag": "VLESS mute-river-6aee.421-bd7.workers.dev:8880"
     },
     {
       "mux": {
@@ -3359,7 +3359,7 @@
           }
         }
       },
-      "tag": "🇺🇸 США | VLESS WS"
+      "tag": "VLESS uspanel.unixzone.us:30016"
     },
     {
       "mux": {
@@ -3391,7 +3391,7 @@
           "show": false
         }
       },
-      "tag": "🇺🇸 США | TROJAN TCP TLS (3)"
+      "tag": "Trojan happy-gibbon.rooster465.autos:443 (2)"
     },
     {
       "mux": {
@@ -3431,7 +3431,7 @@
           "show": false
         }
       },
-      "tag": "🇩🇪 Германия | VLESS WS TLS (2)"
+      "tag": "VLESS 45.131.213.33:443"
     },
     {
       "mux": {
@@ -3463,7 +3463,7 @@
           "show": false
         }
       },
-      "tag": "🇸🇬 Сингапур | TROJAN TCP TLS (4)"
+      "tag": "Trojan real-cardinal.rooster465.autos:443"
     },
     {
       "mux": {
@@ -3506,7 +3506,7 @@
           ]
         }
       },
-      "tag": "🇨🇦 Канада | VLESS WS TLS"
+      "tag": "VLESS fr.api-music-fa.com:2053"
     },
     {
       "mux": {
@@ -3538,7 +3538,7 @@
           "show": false
         }
       },
-      "tag": "🇯🇵 Япония | TROJAN TCP TLS (4)"
+      "tag": "Trojan concrete-aardvark.rooster465.autos:443"
     },
     {
       "mux": {
@@ -3578,7 +3578,7 @@
           ]
         }
       },
-      "tag": "🇨🇦 Канада | VLESS WS TLS (2)"
+      "tag": "VLESS www.large-files.info:8443"
     },
     {
       "protocol": "freedom",
@@ -3602,101 +3602,101 @@
     "balancers": [
       {
         "selector": [
-          "🇨🇱 Чили | VLESS WS",
-          "🇮🇳 Индия | VLESS TCP Reality",
-          "🇱🇻 Латвия | VLESS TCP TLS",
-          "🇨🇿 Чехия | VLESS TCP Reality",
-          "🇹🇼 Тайвань | HYSTERIA2 UDP",
-          "🇷🇺 Россия | VLESS XHTTP Reality",
-          "🇵🇱 Польша | TROJAN TCP TLS",
-          "🇱🇹 Литва | VLESS TCP Reality",
-          "🇬🇧 Англия | VLESS gRPC",
-          "🇵🇱 Польша | VLESS WS",
-          "🇮🇪 Ирландия | TROJAN TCP TLS",
-          "🇵🇱 Польша | VLESS TCP TLS",
-          "🇵🇱 Польша | TROJAN TCP TLS (2)",
-          "🇧🇬 Болгария | VLESS gRPC Reality",
-          "🇩🇪 Германия | VLESS TCP",
-          "🇧🇬 Болгария | VLESS gRPC Reality (2)",
-          "🇧🇬 Болгария | VLESS gRPC Reality (3)",
-          "🇷🇸 Сербия | VLESS gRPC Reality",
-          "🇬🇧 Англия | VLESS TCP",
-          "🇲🇩 Молдова | VLESS gRPC Reality",
-          "🇨🇱 Чили | VLESS WS (2)",
-          "🇮🇳 Индия | TROJAN TCP TLS",
-          "🇲🇩 Молдова | VLESS gRPC Reality (2)",
-          "🇨🇱 Чили | VLESS WS (3)",
-          "🇲🇩 Молдова | VLESS gRPC Reality (3)",
-          "🇲🇩 Молдова | VLESS gRPC Reality (4)",
-          "🇲🇩 Молдова | VLESS gRPC Reality (5)",
-          "🇯🇵 Япония | TROJAN TCP TLS",
-          "🇰🇷 Корея | TROJAN TCP TLS",
-          "🇰🇷 Корея | TROJAN TCP TLS (2)",
-          "🇯🇵 Япония | VLESS RAW Reality",
-          "🇯🇵 Япония | TROJAN TCP TLS (2)",
-          "🇸🇬 Сингапур | TROJAN TCP TLS",
-          "🇷🇺 Россия | HYSTERIA2 UDP",
-          "🇫🇷 Франция | VLESS TCP Reality",
-          "🇪🇪 Эстония | VLESS TCP TLS",
-          "🇵🇱 Польша | VLESS WS (2)",
-          "🇫🇷 Франция | VLESS TCP Reality (2)",
-          "🇫🇮 Финляндия | VLESS TCP Reality",
-          "🇸🇪 Швеция | VLESS TCP Reality",
-          "🇫🇷 Франция | VLESS TCP TLS",
-          "🇫🇮 Финляндия | VLESS TCP Reality (2)",
-          "🇫🇮 Финляндия | VLESS TCP Reality (3)",
-          "🇱🇻 Латвия | VLESS TCP TLS (2)",
-          "🇩🇪 Германия | VLESS WS TLS",
-          "🇫🇷 Франция | VLESS TCP Reality (3)",
-          "🇫🇮 Финляндия | VLESS TCP Reality (4)",
-          "🇩🇪 Германия | VLESS TCP Reality",
-          "🇩🇪 Германия | TROJAN TCP TLS",
-          "🇫🇮 Финляндия | VLESS TCP Reality (5)",
-          "🇧🇬 Болгария | VLESS gRPC Reality (4)",
-          "🇹🇷 Турция | VLESS TCP Reality",
-          "🇷🇴 Румыния | VLESS RAW Reality",
-          "🇹🇷 Турция | VLESS TCP Reality (2)",
-          "🇧🇬 Болгария | VLESS gRPC Reality (5)",
-          "🇷🇸 Сербия | VLESS gRPC Reality (2)",
-          "🇷🇸 Сербия | VLESS gRPC Reality (3)",
-          "🇷🇸 Сербия | VLESS gRPC Reality (4)",
-          "🇮🇳 Индия | VLESS TCP Reality (2)",
-          "🇪🇪 Эстония | VLESS TCP Reality",
-          "🇪🇪 Эстония | VLESS WS TLS",
-          "🇺🇸 США | VLESS gRPC Reality",
-          "🇬🇧 Англия | VLESS TCP Reality",
-          "🇷🇺 Россия | VLESS TCP Reality",
-          "🇩🇪 Германия | VLESS TCP Reality (2)",
-          "🇷🇺 Россия | VLESS RAW Reality",
-          "🇳🇱 Нидерланды | VLESS WS",
-          "🇫🇷 Франция | VLESS gRPC TLS",
-          "🇬🇧 Англия | VLESS TCP Reality (2)",
-          "🇸🇬 Сингапур | TROJAN TCP TLS (2)",
-          "🇰🇷 Корея | TROJAN TCP TLS (3)",
-          "🇰🇷 Корея | TROJAN TCP TLS (4)",
-          "🇸🇬 Сингапур | TROJAN TCP TLS (3)",
-          "🇸🇬 Сингапур | VLESS TCP Reality",
-          "🇷🇺 Россия | VLESS TCP Reality (2)",
-          "🇰🇷 Корея | VLESS TCP Reality",
-          "🇦🇺 Австралия | VLESS TCP Reality",
-          "🇷🇸 Сербия | VLESS gRPC Reality (5)",
-          "🇳🇱 Нидерланды | VLESS WS TLS",
-          "🇳🇱 Нидерланды | VLESS TCP Reality",
-          "🇨🇦 Канада | VLESS WS",
-          "🇳🇱 Нидерланды | VLESS TCP Reality (2)",
-          "🇨🇦 Канада | VLESS WS (2)",
-          "🇳🇱 Нидерланды | VLESS WS TLS (2)",
-          "🇺🇸 США | TROJAN TCP TLS",
-          "🇺🇸 США | TROJAN TCP TLS (2)",
-          "🇯🇵 Япония | TROJAN TCP TLS (3)",
-          "🇨🇦 Канада | VLESS WS (3)",
-          "🇺🇸 США | VLESS WS",
-          "🇺🇸 США | TROJAN TCP TLS (3)",
-          "🇩🇪 Германия | VLESS WS TLS (2)",
-          "🇸🇬 Сингапур | TROJAN TCP TLS (4)",
-          "🇨🇦 Канада | VLESS WS TLS",
-          "🇯🇵 Япония | TROJAN TCP TLS (4)",
-          "🇨🇦 Канада | VLESS WS TLS (2)"
+          "VLESS platform103.golnamakcert.top:80",
+          "VLESS 194.61.31.126:2053",
+          "VLESS 87.192.47.10:52006",
+          "VLESS 31.76.7.227:443",
+          "HYSTERIA vpn-tw-002.fastervpn.world:443",
+          "VLESS de-1.avroraservice.online:8443",
+          "Trojan pl.tronsg.com:443",
+          "VLESS 84.32.215.96:443",
+          "VLESS 66.90.105.211:2083",
+          "VLESS 70.34.255.101:80",
+          "Trojan loved-shark.rooster465.autos:443",
+          "VLESS 179.254.71.20:52006",
+          "Trojan cheerful-swan.rooster465.autos:443",
+          "VLESS bg5.univesalsrv.com:443",
+          "VLESS milo.rubinaz.xyz:8080",
+          "VLESS bg4.univesalsrv.com:443",
+          "VLESS bg4.univesalsrv.com:443 (2)",
+          "VLESS rs1.univesalsrv.com:443",
+          "VLESS test.keoplentuio.xyz:2053",
+          "VLESS md1.univesalsrv.com:443",
+          "VLESS platform102.golnamakcert.top:80",
+          "Trojan hyfuuf6.wsone.icu:443",
+          "VLESS md3.univesalsrv.com:443",
+          "VLESS platform113.golnamakcert.top:80",
+          "VLESS md2.univesalsrv.com:443",
+          "VLESS md4.univesalsrv.com:443",
+          "VLESS md2.univesalsrv.com:443 (2)",
+          "Trojan fancy-javelin.rooster465.autos:443",
+          "Trojan kind-stork.rooster465.autos:443",
+          "Trojan liked-eft.rooster465.autos:443",
+          "VLESS 142.91.106.31:43000",
+          "Trojan obliging-louse.rooster465.autos:443",
+          "Trojan desired-boxer.rooster465.autos:443",
+          "HYSTERIA 45.151.101.97:2443",
+          "VLESS 62.210.91.2:23576",
+          "VLESS 94.183.170.135:8443",
+          "VLESS 70.34.252.154:80",
+          "VLESS 62.210.91.2:23576 (2)",
+          "VLESS 13.143.166.25:443",
+          "VLESS 193.148.59.178:443",
+          "VLESS 31.77.227.10:52006",
+          "VLESS 177.3.214.52:443",
+          "VLESS 177.3.214.52:443 (2)",
+          "VLESS 87.192.47.10:52006 (2)",
+          "VLESS de-1.srv.dvzh.net:443",
+          "VLESS 137.74.16.237:443",
+          "VLESS 177.3.214.52:443 (3)",
+          "VLESS 150.241.101.17:8443",
+          "Trojan meet-goshawk.rooster465.autos:443",
+          "VLESS 157.228.128.59:443",
+          "VLESS bg2.univesalsrv.com:443",
+          "VLESS 151.241.226.201:2053",
+          "VLESS 46.28.67.55:443",
+          "VLESS 151.241.226.201:2053 (2)",
+          "VLESS bg5.univesalsrv.com:443 (2)",
+          "VLESS rs1.univesalsrv.com:443 (2)",
+          "VLESS rs4.univesalsrv.com:443",
+          "VLESS rs3.univesalsrv.com:443",
+          "VLESS 148.113.5.44:443",
+          "VLESS 95.85.224.51:443",
+          "VLESS 194.26.141.148:8443",
+          "VLESS us1.jetservaki.fit:443",
+          "VLESS 3.9.135.156:51847",
+          "VLESS 193.163.203.253:443",
+          "VLESS 150.241.101.80:8443",
+          "VLESS bl3fk52.sysopnova.art:443",
+          "VLESS sc-thenetherlands1.09vpn.com:80",
+          "VLESS 143.246.208.113:443",
+          "VLESS 51.89.194.151:2053",
+          "Trojan pet-antelope.rooster465.autos:443",
+          "Trojan engaging-toucan.rooster465.autos:443",
+          "Trojan balanced-stag.rooster465.autos:443",
+          "Trojan glowing-marmoset.rooster465.autos:443",
+          "VLESS 46.137.202.178:12512",
+          "VLESS 193.163.203.170:443",
+          "VLESS 3.39.4.109:13672",
+          "VLESS 34.87.244.111:443",
+          "VLESS rs5.univesalsrv.com:443",
+          "VLESS nl-1.srv.dvzh.net:443",
+          "VLESS nl-2.srv.dvzh.net:443",
+          "VLESS long-boat-7113.303-08c.workers.dev:8880",
+          "VLESS 64.188.126.56:43000",
+          "VLESS rough-mouse-2a3a.424-e94.workers.dev:8880",
+          "VLESS nl-1.srv.dvzh.net:443 (2)",
+          "Trojan ultimate-jaguar.rooster465.autos:443",
+          "Trojan happy-gibbon.rooster465.autos:443",
+          "Trojan accurate-frog.rooster465.autos:443",
+          "VLESS mute-river-6aee.421-bd7.workers.dev:8880",
+          "VLESS uspanel.unixzone.us:30016",
+          "Trojan happy-gibbon.rooster465.autos:443 (2)",
+          "VLESS 45.131.213.33:443",
+          "Trojan real-cardinal.rooster465.autos:443",
+          "VLESS fr.api-music-fa.com:2053",
+          "Trojan concrete-aardvark.rooster465.autos:443",
+          "VLESS www.large-files.info:8443"
         ],
         "tag": "balancer"
       }
