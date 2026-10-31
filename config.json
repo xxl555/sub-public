@@ -37,13 +37,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "109.248.170.119",
-            "port": 13447,
+            "address": "176.124.223.254",
+            "port": 5555,
             "users": [
               {
                 "encryption": "none",
-                "flow": "",
-                "id": "b573cefb-7bc7-4a42-b407-b8b534e66773",
+                "flow": "xtls-rprx-vision",
+                "id": "d5b3e363-4143-435f-80d3-a51568283a22",
                 "level": 8
               }
             ]
@@ -51,18 +51,22 @@
         ]
       },
       "streamSettings": {
-        "network": "raw",
+        "network": "tcp",
         "security": "reality",
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
         "realitySettings": {
           "allowInsecure": false,
-          "fingerprint": "chrome",
-          "publicKey": "_0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE",
-          "serverName": "yahoo.com",
-          "shortId": "83",
+          "fingerprint": "firefox",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "serverName": "de1-site.kartamira.cc",
           "show": false
         }
       },
-      "tag": "🇰🇿 Казахстан | VLESS RAW Reality"
+      "tag": "🇨🇳 Китай | VLESS TCP Reality"
     },
     {
       "mux": {
@@ -73,13 +77,656 @@
       "settings": {
         "vnext": [
           {
-            "address": "137.74.16.237",
+            "address": "93.152.206.97",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "xtls-rprx-vision",
-                "id": "aaec4e42-a095-44b6-a239-f16d234a0798",
+                "id": "6db6b948-655f-4f68-a9e7-865050e05b31",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "realitySettings": {
+          "allowInsecure": false,
+          "fingerprint": "firefox",
+          "publicKey": "-zjl4KNE4PFeuthfmw_2JeCbiXAA2kaoYVHODPq-sXQ",
+          "serverName": "remote.propaint.cl",
+          "shortId": "aca2fc",
+          "show": false
+        }
+      },
+      "tag": "🇧🇬 Болгария | VLESS TCP Reality"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "157.22.240.172",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "f28ce4eb-62cd-45f5-b3b3-be1c1a95e335",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "realitySettings": {
+          "allowInsecure": false,
+          "fingerprint": "firefox",
+          "publicKey": "T1BWBw3lq9G1LiQ7eQSPfdNQic7bUMEbdFNJBewAwB8",
+          "serverName": "yandex.ru",
+          "shortId": "6ad3c0f1e9b2478a",
+          "show": false
+        }
+      },
+      "tag": "🇦🇱 Албания | VLESS TCP Reality"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "216.238.116.204",
+            "port": 39533,
+            "password": "5t6i121em5lkmsmk",
+            "level": 8
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "chrome",
+          "serverName": "br001.zestapp778.com",
+          "show": false
+        }
+      },
+      "tag": "🇧🇷 Бразилия | TROJAN TCP TLS"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "140.238.2.250",
+            "port": 443,
+            "users": [
+              {
+                "id": "41a7089a-040b-4538-8b8d-010902405bde",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw"
+      },
+      "tag": "🇰🇷 Корея | VMESS RAW"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "140.238.2.250",
+            "port": 443,
+            "users": [
+              {
+                "id": "41a7089a-040b-4538-8b8d-010902405bde",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        }
+      },
+      "tag": "🇰🇷 Корея | VMESS RAW (2)"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "194.55.164.118",
+            "port": 443,
+            "password": "humanity",
+            "level": 8
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "path": "/assignment"
+        },
+        "tlsSettings": {
+          "allowInsecure": true,
+          "fingerprint": "chrome",
+          "serverName": "www.cordweave.com",
+          "show": false
+        }
+      },
+      "tag": "🇨🇾 Кипр | TROJAN WS TLS"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "213.238.182.13",
+            "port": 443,
+            "password": "humanity",
+            "level": 8
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "path": "/assignment",
+          "headers": {
+            "Host": "www.cordweave.com"
+          }
+        },
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "www.cordweave.com",
+          "show": false
+        }
+      },
+      "tag": "🇹🇷 Турция | TROJAN WS TLS"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "fr1.vpngold.ru",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "a52fd54b-ba4d-4d11-8e00-301e2646cd66",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "realitySettings": {
+          "allowInsecure": false,
+          "fingerprint": "firefox",
+          "publicKey": "1H1DiBCBB7fpALV71pH1q66ePybBFlVOcxftdlQimQ8",
+          "serverName": "fr1.vpngold.ru",
+          "shortId": "385cb18df0892069",
+          "show": false
+        }
+      },
+      "tag": "🇫🇷 Франция | VLESS TCP Reality"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "132.243.66.98",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "c29fa587-b10d-445d-b7e3-eaa6d1bd1330",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "path": "/live/showroom",
+          "headers": {
+            "Host": "media.aava.lalibobi.online"
+          }
+        },
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "firefox",
+          "serverName": "media.aava.lalibobi.online",
+          "show": false
+        }
+      },
+      "tag": "🇪🇪 Эстония | VLESS WS TLS"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "in-nl2.bystriynet.online",
+            "port": 8469,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "1c8f7130-8c1a-4949-831d-1d45b39c795b",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "realitySettings": {
+          "allowInsecure": false,
+          "fingerprint": "firefox",
+          "publicKey": "jXnHLdfNcX2fwTFY-d2boAYcfC9EnnhqYS0hfR6WwFo",
+          "serverName": "svoboda12.bystriynet.online",
+          "shortId": "55d42bdd79605658",
+          "show": false
+        }
+      },
+      "tag": "🇫🇷 Франция | VLESS TCP Reality (2)"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "eyJ2IjoiMiIsInBzIjoi8J+HsPCfh7cg0JrQvtGA0LXRjyB8IFZNRVNTIFRDUCIsImFkZCI6IjE0MC4yMzguMi4yNTAiLCJwb3J0IjoiNDQzIiwiaWQiOiI0MWE3MDg5YS0wNDBiLTQ1MzgtOGI4ZC0wMTA5MDI0MDViZGUiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6InRjcCIsInR5cGUiOiIiLCJ0bHMiOiIifQ==",
+            "port": 0,
+            "users": [
+              {
+                "id": "",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        }
+      },
+      "tag": "🇰🇷 Корея | VMESS TCP"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "91.149.167.147",
+            "port": 8443,
+            "password": "humanity",
+            "level": 8
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "path": "/assignment"
+        },
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "www.cordweave.com",
+          "show": false
+        }
+      },
+      "tag": "🇧🇾 Беларусь | TROJAN WS TLS"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "130.78.185.4",
+            "port": 443,
+            "password": "humanity",
+            "level": 8
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "path": "/assignment"
+        },
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "www.cordweave.com",
+          "show": false
+        }
+      },
+      "tag": "🇲🇩 Молдова | TROJAN WS TLS"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "83.228.199.3",
+            "port": 443,
+            "password": "humanity",
+            "level": 8
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "path": "/assignment"
+        },
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "www.cordweave.com",
+          "show": false
+        }
+      },
+      "tag": "🇨🇭 Швейцария | TROJAN WS TLS"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "109.248.170.245",
+            "port": 443,
+            "password": "humanity",
+            "level": 8
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "path": "/assignment"
+        },
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "www.cordweave.com",
+          "show": false
+        }
+      },
+      "tag": "🇰🇿 Казахстан | TROJAN WS TLS"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "93.170.72.138",
+            "port": 443,
+            "password": "humanity",
+            "level": 8
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "path": "/assignment"
+        },
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "www.cordweave.com",
+          "show": false
+        }
+      },
+      "tag": "🇰🇿 Казахстан | TROJAN WS TLS (2)"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "76.13.188.13",
+            "port": 8443,
+            "password": "humanity",
+            "level": 8
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "path": "/assignment"
+        },
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "www.cordweave.com",
+          "show": false
+        }
+      },
+      "tag": "🇲🇾 Малайзия | TROJAN WS TLS"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "67.159.52.51",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "a0fa7e19-70ec-41e0-b0cc-bcc984d4201a",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "realitySettings": {
+          "allowInsecure": false,
+          "fingerprint": "chrome",
+          "publicKey": "iE4sTz-Q2Frkm7WM32P1wm4at49Wpaj5vo-2FsLcN1M",
+          "serverName": "snp.bsh-net.ru",
+          "shortId": "8854f17e2a5af2d8",
+          "show": false
+        }
+      },
+      "tag": "🇸🇬 Сингапур | VLESS TCP Reality"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "130.94.77.169",
+            "port": 29813,
+            "password": "5t6i121em5lkmsmk",
+            "level": 8
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "firefox",
+          "serverName": "en001.zestapp778.com",
+          "show": false
+        }
+      },
+      "tag": "🇬🇧 Англия | TROJAN TCP TLS"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "smart.bachidze.com",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "3bb97d46-789b-4229-88f6-9beb222a4137",
                 "level": 8
               }
             ]
@@ -91,14 +738,897 @@
         "security": "reality",
         "realitySettings": {
           "allowInsecure": false,
-          "fingerprint": "chrome",
-          "publicKey": "7LSzvilTVKGMtBDuKGeMrLtlhY7tQf5YcG566dEgO0I",
-          "serverName": "www.icloud.com",
-          "shortId": "b390e0a721d242b0",
+          "fingerprint": "firefox",
+          "publicKey": "vzRgIP8Mvd9V6krwKxw5EwwzvC4uiaW3wo0Y2ri2_Wc",
+          "serverName": "smart.bachidze.com",
           "show": false
         }
       },
-      "tag": "🇫🇷 Франция | VLESS RAW Reality"
+      "tag": "🇸🇪 Швеция | VLESS RAW Reality"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "media.aava.lalibobi.online",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "c29fa587-b10d-445d-b7e3-eaa6d1bd1330",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "path": "/live/showroom",
+          "headers": {
+            "Host": "media.aava.lalibobi.online"
+          }
+        },
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "firefox",
+          "serverName": "media.aava.lalibobi.online",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        }
+      },
+      "tag": "🇪🇪 Эстония | VLESS WS TLS (2)"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "88.216.223.100",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "3bb97d46-789b-4229-88f6-9beb222a4137",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "security": "reality",
+        "realitySettings": {
+          "allowInsecure": false,
+          "fingerprint": "firefox",
+          "publicKey": "vzRgIP8Mvd9V6krwKxw5EwwzvC4uiaW3wo0Y2ri2_Wc",
+          "serverName": "smart.bachidze.com",
+          "show": false
+        }
+      },
+      "tag": "🇸🇪 Швеция | VLESS RAW Reality (2)"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "direct-nl.bachidze.com",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "3bb97d46-789b-4229-88f6-9beb222a4137",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "security": "reality",
+        "realitySettings": {
+          "allowInsecure": false,
+          "fingerprint": "firefox",
+          "publicKey": "E12wXXagR8xuql7KlWCLTgMaXj74JcU__lg66yz6iTw",
+          "serverName": "direct-nl.bachidze.com",
+          "show": false
+        }
+      },
+      "tag": "🇵🇱 Польша | VLESS RAW Reality"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "en001.zestapp778.com",
+            "port": 29813,
+            "password": "5t6i121em5lkmsmk",
+            "level": 8
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "en001.zestapp778.com",
+          "show": false
+        }
+      },
+      "tag": "🇬🇧 Англия | TROJAN TCP TLS (2)"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "208.69.78.19",
+            "port": 443,
+            "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+            "level": 8
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "www.yourultimateprofessionalcareerhub.com",
+          "show": false
+        }
+      },
+      "tag": "🇨🇭 Швейцария | TROJAN TCP TLS"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "de1.kartamira.cc",
+            "port": 5555,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "d5b3e363-4143-435f-80d3-a51568283a22",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "realitySettings": {
+          "allowInsecure": false,
+          "fingerprint": "chrome",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "serverName": "de1-site.kartamira.cc",
+          "show": false
+        }
+      },
+      "tag": "🇨🇳 Китай | VLESS TCP Reality (2)"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "67.159.52.51",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "a0fa7e19-70ec-41e0-b0cc-bcc984d4201a",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "realitySettings": {
+          "allowInsecure": false,
+          "publicKey": "iE4sTz-Q2Frkm7WM32P1wm4at49Wpaj5vo-2FsLcN1M",
+          "serverName": "snp.bsh-net.ru",
+          "shortId": "8854f17e2a5af2d8",
+          "show": false
+        }
+      },
+      "tag": "🇸🇬 Сингапур | VLESS TCP Reality (2)"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "94.228.162.222",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "a9fe0131-af95-4599-bc7f-7205479ec7c7",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "realitySettings": {
+          "allowInsecure": false,
+          "fingerprint": "firefox",
+          "publicKey": "rvDa0xNkcJYEIJ-1Ncrq54BUjjwm99C_8Vv_-He6j1U",
+          "serverName": "vena.solomon-planet.ru",
+          "show": false
+        }
+      },
+      "tag": "🇦🇹 Австрия | VLESS TCP Reality"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "185.98.63.6",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "2771954b-3f7f-49cb-90fd-32616e90a2f3",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "realitySettings": {
+          "allowInsecure": false,
+          "fingerprint": "firefox",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "serverName": "apple.com",
+          "show": false
+        }
+      },
+      "tag": "🇹🇷 Турция | VLESS TCP Reality"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "108.61.177.57",
+            "port": 16778,
+            "password": "5t6i121em5lkmsmk",
+            "level": 8
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "firefox",
+          "serverName": "fr001.zestapp778.com",
+          "show": false
+        }
+      },
+      "tag": "🇫🇷 Франция | TROJAN TCP TLS"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "84.32.215.50",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "e4cb7d26-8c4d-4834-8d02-46d9e8bf23fd",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "realitySettings": {
+          "allowInsecure": false,
+          "fingerprint": "firefox",
+          "publicKey": "vrcsm8L_tY7sNbnCEdLCEjOthh_w9bdWS3wFPgsIomk",
+          "serverName": "ltnew.aether-runet.top",
+          "shortId": "4fa44664f6a566d3",
+          "show": false
+        }
+      },
+      "tag": "🇱🇹 Литва | VLESS TCP Reality"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "fr1.vpngold.ru",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "a52fd54b-ba4d-4d11-8e00-301e2646cd66",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "security": "reality",
+        "realitySettings": {
+          "allowInsecure": false,
+          "fingerprint": "firefox",
+          "publicKey": "1H1DiBCBB7fpALV71pH1q66ePybBFlVOcxftdlQimQ8",
+          "serverName": "fr1.vpngold.ru",
+          "shortId": "385cb18df0892069",
+          "show": false
+        }
+      },
+      "tag": "🇫🇷 Франция | VLESS TCP Reality (3)"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "92.243.74.224",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "a52fd54b-ba4d-4d11-8e00-301e2646cd66",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "security": "reality",
+        "realitySettings": {
+          "allowInsecure": false,
+          "fingerprint": "firefox",
+          "publicKey": "1H1DiBCBB7fpALV71pH1q66ePybBFlVOcxftdlQimQ8",
+          "serverName": "de8.vpngold.ru",
+          "shortId": "385cb18df0892069",
+          "show": false
+        }
+      },
+      "tag": "🇸🇬 Сингапур | VLESS RAW Reality"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "147.45.126.220",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "452a5bbc-d938-4904-99d3-7db2075d0f3e",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "firefox",
+          "serverName": "pol.qikbro.com",
+          "show": false
+        },
+        "grpcSettings": {
+          "serviceName": "assets",
+          "idle_timeout": 60,
+          "health_check_timeout": 20
+        }
+      },
+      "tag": "🇵🇱 Польша | VLESS gRPC TLS"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "150.241.74.29",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "454cd459-e6b3-4695-a67a-5e48c4a5b54c",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "realitySettings": {
+          "allowInsecure": false,
+          "fingerprint": "firefox",
+          "publicKey": "v--0dXOWcnzpJvl_6qkbWTCRLg-eWdJ6WxJsYtj9WQY",
+          "serverName": "cdn.izzzyvpn.space",
+          "shortId": "f7fdf037537b8c38",
+          "show": false
+        }
+      },
+      "tag": "🇸🇪 Швеция | VLESS TCP Reality"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "md3.univesalsrv.com",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "allowInsecure": false,
+          "fingerprint": "firefox",
+          "publicKey": "q38CddDj2g-XNDc0uW1m6S6b8iGY_Bne2RwX7C_FYCQ",
+          "serverName": "md3.univesalsrv.com",
+          "shortId": "9a72d40f1ff882b3",
+          "show": false
+        },
+        "grpcSettings": {
+          "serviceName": "stats.v2.PushService",
+          "idle_timeout": 60,
+          "health_check_timeout": 20
+        }
+      },
+      "tag": "🇲🇩 Молдова | VLESS gRPC Reality"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "167.179.108.225",
+            "port": 443,
+            "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+            "level": 8
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "chrome",
+          "serverName": "discoverparttimepositionsandsupplementyourincomeguide.com",
+          "show": false
+        }
+      },
+      "tag": "🇯🇵 Япония | TROJAN TCP TLS"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "rs3.univesalsrv.com",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "allowInsecure": false,
+          "fingerprint": "safari",
+          "publicKey": "gHDoSWGWMVZKWNKONWHw-Cpl0-bdI6GaKusgJIQ-vWQ",
+          "serverName": "rs3.univesalsrv.com",
+          "shortId": "35d05b666e2c6cdf",
+          "show": false
+        },
+        "grpcSettings": {
+          "serviceName": "edge.v2.FeedService",
+          "idle_timeout": 60,
+          "health_check_timeout": 20
+        }
+      },
+      "tag": "🇷🇸 Сербия | VLESS gRPC Reality"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "94.228.162.222",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "a9fe0131-af95-4599-bc7f-7205479ec7c7",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "security": "reality",
+        "realitySettings": {
+          "allowInsecure": false,
+          "fingerprint": "firefox",
+          "publicKey": "rvDa0xNkcJYEIJ-1Ncrq54BUjjwm99C_8Vv_-He6j1U",
+          "serverName": "vena.solomon-planet.ru",
+          "show": false
+        }
+      },
+      "tag": "🇦🇹 Австрия | VLESS TCP Reality (2)"
+    },
+    {
+      "mux": null,
+      "protocol": "hysteria",
+      "settings": {
+        "address": "144.31.109.158",
+        "port": 4444,
+        "version": 2
+      },
+      "streamSettings": {
+        "network": "hysteria",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "fl3.nexfile.net",
+          "show": false,
+          "alpn": [
+            "h3"
+          ]
+        },
+        "hysteriaSettings": {
+          "version": 2,
+          "auth": "a35c508f-4d5d-4531-842e-6e9d43c762c0"
+        },
+        "finalmask": {
+          "quicParams": {}
+        }
+      },
+      "tag": "🇫🇮 Финляндия | HYSTERIA2 UDP"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "150.40.126.24",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "allowInsecure": false,
+          "fingerprint": "firefox",
+          "publicKey": "X8mPYnsoTd8QCnvFZKSy7VvpSn_nrt_NWJkCUJhFCyE",
+          "serverName": "rs5.univesalsrv.com",
+          "shortId": "4872856d5489c37d",
+          "show": false
+        },
+        "grpcSettings": {
+          "serviceName": "gw.v1.ObjectService",
+          "authority": "TELEGRAM--TOOTFFARANGI",
+          "idle_timeout": 60,
+          "health_check_timeout": 20
+        }
+      },
+      "tag": "🇷🇸 Сербия | VLESS gRPC Reality (2)"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "147.45.126.220",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "b4b49727-4472-4736-aba6-9546d788cb84",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "firefox",
+          "serverName": "pol.qikbro.com",
+          "show": false
+        },
+        "grpcSettings": {
+          "serviceName": "assets",
+          "idle_timeout": 60,
+          "health_check_timeout": 20
+        }
+      },
+      "tag": "🇵🇱 Польша | VLESS gRPC TLS (2)"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "152.67.8.205",
+            "port": 80,
+            "users": [
+              {
+                "id": "9db4c708-aef8-4359-821b-38e47990be0d",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "path": "/",
+          "headers": {
+            "Host": "in-152.67.8.205-0282"
+          }
+        }
+      },
+      "tag": "🇮🇳 Индия | VMESS WS"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "156.245.232.239",
+            "port": 35043,
+            "users": [
+              {
+                "id": "b15e481d-17e4-41a8-84c2-23d4f0514d9a",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "tag": "🇭🇰 Гонконг | VMESS WS"
     },
     {
       "mux": null,
@@ -113,7 +1643,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "127.0.0.1",
+          "serverName": "152.32.254.68",
           "show": false,
           "alpn": [
             "h3"
@@ -138,137 +1668,19 @@
       "tag": "🇭🇰 Гонконг | HYSTERIA2 UDP"
     },
     {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "103.75.118.228",
-            "port": 11452,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "814bd064-544d-4255-a070-5705c03f6da9",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "raw",
-        "security": "reality",
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "chrome",
-          "publicKey": "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0",
-          "serverName": "www.apple.com",
-          "shortId": "48050fab",
-          "show": false
-        }
-      },
-      "tag": "🇯🇵 Япония | VLESS RAW Reality"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "77.91.68.70",
-            "port": 55983,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "f667a096-5231-4cfb-8759-92bb32473139",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "chrome",
-          "publicKey": "nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg",
-          "serverName": "yahoo.com",
-          "shortId": "0e",
-          "show": false
-        }
-      },
-      "tag": "🇦🇲 Армения | VLESS TCP Reality"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "177.1.192.38",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "706bce83-91db-4260-b175-cba29145cd56",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "qq",
-          "publicKey": "rczv8z0BFqH3QS9PfFAzLYZY8Iao1yEBhwcRskkQugo",
-          "serverName": "upnl.giftsbattle.vip",
-          "shortId": "b3e515e37815559d",
-          "show": false
-        }
-      },
-      "tag": "🇵🇱 Польша | VLESS TCP Reality"
-    },
-    {
       "mux": null,
       "protocol": "hysteria",
       "settings": {
-        "address": "152.67.200.82",
-        "port": 50160,
+        "address": "152.32.254.68",
+        "port": 5010,
         "version": 2
       },
       "streamSettings": {
         "network": "hysteria",
         "security": "tls",
         "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "152-67-200-82.liao.kdns.fr",
+          "allowInsecure": false,
+          "serverName": "nas.aizhzo.com",
           "show": false,
           "alpn": [
             "h3"
@@ -276,13 +1688,21 @@
         },
         "hysteriaSettings": {
           "version": 2,
-          "auth": "3d7634af8cb2c6cb4bac1c0efad8b43d"
+          "auth": "eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ"
         },
         "finalmask": {
+          "udp": [
+            {
+              "type": "salamander",
+              "settings": {
+                "password": "7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9"
+              }
+            }
+          ],
           "quicParams": {}
         }
       },
-      "tag": "🇰🇷 Корея | HYSTERIA2 UDP"
+      "tag": "🇭🇰 Гонконг | HYSTERIA2 UDP (2)"
     },
     {
       "mux": {
@@ -293,83 +1713,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "staging.lastilhame.monster",
+            "address": "179.198.49.218",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "xtls-rprx-vision",
-                "id": "2ba7f500-017b-4891-87a0-e4e62a4ad52d",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "chrome",
-          "publicKey": "FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg",
-          "serverName": "www.microsoft.com",
-          "shortId": "9409f73c2fd7",
-          "show": false
-        }
-      },
-      "tag": "🇺🇦 Украина | VLESS TCP Reality"
-    },
-    {
-      "mux": null,
-      "protocol": "hysteria",
-      "settings": {
-        "address": "152.67.200.82",
-        "port": 50160,
-        "version": 2
-      },
-      "streamSettings": {
-        "network": "hysteria",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "whatsapp.com",
-          "show": false,
-          "alpn": [
-            "h3"
-          ]
-        },
-        "hysteriaSettings": {
-          "version": 2,
-          "auth": "3d7634af8cb2c6cb4bac1c0efad8b43d"
-        },
-        "finalmask": {
-          "quicParams": {}
-        }
-      },
-      "tag": "🇰🇷 Корея | HYSTERIA2 UDP (2)"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "151.245.106.49",
-            "port": 2053,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "a2de9567-9646-45a9-a410-7303a43bdb6c",
+                "id": "7ad63b26-bf70-4872-8fab-ebaf73a1e19d",
                 "level": 8
               }
             ]
@@ -387,502 +1737,13 @@
         "realitySettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
-          "publicKey": "F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo",
-          "serverName": "www.cloudflare.com",
-          "shortId": "429499c03d4cc8a0",
+          "publicKey": "9CKMhiYPXEIfQh_XFbbN1GoBxeLxJkaar2wg9FZKfBo",
+          "serverName": "assets-44.topp-con.xyz",
+          "shortId": "75fe71d16ccae610",
           "show": false
         }
       },
-      "tag": "🇰🇷 Корея | VLESS TCP Reality"
-    },
-    {
-      "mux": null,
-      "protocol": "hysteria",
-      "settings": {
-        "address": "138.3.208.26",
-        "port": 50160,
-        "version": 2
-      },
-      "streamSettings": {
-        "network": "hysteria",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "138.3.208.26",
-          "show": false,
-          "alpn": [
-            "h3"
-          ]
-        },
-        "hysteriaSettings": {
-          "version": 2,
-          "auth": "184cdec28da5a09450803c8debcd2cc9"
-        },
-        "finalmask": {
-          "quicParams": {}
-        }
-      },
-      "tag": "🇯🇵 Япония | HYSTERIA2 UDP"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "141.11.139.215",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "d342d11e-d224-4463-b982-532309285094",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "wsSettings": {
-          "path": "/",
-          "headers": {
-            "Host": "ccc.010304.xyz"
-          }
-        },
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "chrome",
-          "serverName": "ccc.010304.xyz",
-          "show": false
-        }
-      },
-      "tag": "🇯🇵 Япония | VLESS WS TLS"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "swidenafterlanzerotte.space",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "50a87e21-f0e2-4b53-a787-91adfe748f63",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "chrome",
-          "publicKey": "MQrvfivvEfLGzDee7h0j5uC-DwaD_38_NXOY9-NhqxM",
-          "serverName": "swidenafterlanzerotte.space",
-          "show": false
-        }
-      },
-      "tag": "🇸🇪 Швеция | VLESS TCP Reality"
-    },
-    {
-      "mux": null,
-      "protocol": "hysteria",
-      "settings": {
-        "address": "152.67.200.82",
-        "port": 50160,
-        "version": 2
-      },
-      "streamSettings": {
-        "network": "hysteria",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "152.67.200.82",
-          "show": false,
-          "alpn": [
-            "h3"
-          ]
-        },
-        "hysteriaSettings": {
-          "version": 2,
-          "auth": "3d7634af8cb2c6cb4bac1c0efad8b43d"
-        },
-        "finalmask": {
-          "quicParams": {}
-        }
-      },
-      "tag": "🇰🇷 Корея | HYSTERIA2 UDP (3)"
-    },
-    {
-      "mux": null,
-      "protocol": "hysteria",
-      "settings": {
-        "address": "152.67.200.82",
-        "port": 50160,
-        "version": 2
-      },
-      "streamSettings": {
-        "network": "hysteria",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "css.rbxcdn.com",
-          "show": false,
-          "alpn": [
-            "h3"
-          ]
-        },
-        "hysteriaSettings": {
-          "version": 2,
-          "auth": "3d7634af8cb2c6cb4bac1c0efad8b43d"
-        },
-        "finalmask": {
-          "quicParams": {}
-        }
-      },
-      "tag": "🇰🇷 Корея | HYSTERIA2 UDP (4)"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "216.173.67.59",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "d342d11e-d224-4463-b982-532309285094",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "wsSettings": {
-          "path": "/",
-          "headers": {
-            "Host": "ccc.010304.xyz"
-          }
-        },
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "chrome",
-          "serverName": "ccc.010304.xyz",
-          "show": false
-        }
-      },
-      "tag": "🇲🇾 Малайзия | VLESS WS TLS"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "77.91.69.169",
-            "port": 19226,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "f0b144bd-4c44-440d-b630-d79ec82cad3a",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "raw",
-        "security": "reality",
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "chrome",
-          "publicKey": "PQjgf7GxBd2tDXf0zl9Z5rTZo7LdsWj0hGZLH-lJ-Uk",
-          "serverName": "yahoo.com",
-          "shortId": "7c",
-          "show": false
-        }
-      },
-      "tag": "🇮🇱 Израиль | VLESS RAW Reality"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "109.248.148.140",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "28e7f9e1-006c-4c38-822d-2d2903477444",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "chrome",
-          "publicKey": "RFZXfsd3WfxOKRcdO4Q7RoElfE8JbMpR6bG3jYLV_Uc",
-          "serverName": "www.apple.com",
-          "show": false
-        }
-      },
-      "tag": "🇱🇻 Латвия | VLESS TCP Reality"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "app-tw-113.statsmarket-wb.com",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "07680ffb-0666-4836-b6ad-ec0de62bc38f",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "randomized",
-          "publicKey": "D_-aOnqEEAyi1i95e9mBjGpbT3kbTuQsWYBGW2s-iTg",
-          "serverName": "assets-tw-113.statsmarket-wb.com",
-          "shortId": "8998b032d5c33de9",
-          "show": false
-        }
-      },
-      "tag": "🇷🇺 Россия | VLESS TCP Reality"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "ai.smrtai.top",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "086bf957-9cd0-4e55-8280-bbef10435b41",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "chrome",
-          "publicKey": "R-w7BpNgtryZRBMyRoHx81OnjzAwrKhVtV1EUKLFJzc",
-          "serverName": "www.cloudflare.com",
-          "shortId": "086bf957",
-          "show": false
-        }
-      },
-      "tag": "🇫🇷 Франция | VLESS TCP Reality"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "156.252.229.159",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "3e21e3d3-6d26-4155-b851-764dd8e8c6b5",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "chrome",
-          "publicKey": "7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A",
-          "serverName": "play.googleapis.com",
-          "shortId": "974f7f8f",
-          "show": false
-        }
-      },
-      "tag": "🇲🇽 Мексика | VLESS TCP Reality"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "217.11.164.183",
-            "port": 2118,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "4476ca08-bdb4-41c1-bae4-a960bdb28c19",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "chrome",
-          "publicKey": "bWIOrQAqUWCrz6BGdwaG42xaV-HEo8sUdGqVktUh0XU",
-          "serverName": "www.apple.com",
-          "shortId": "68c328105c",
-          "show": false,
-          "spiderX": "/b0801adb7de08fd"
-        }
-      },
-      "tag": "🇹🇷 Турция | VLESS TCP Reality"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "89.35.14.32",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "grpc",
-        "security": "reality",
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "chrome",
-          "publicKey": "q38CddDj2g-XNDc0uW1m6S6b8iGY_Bne2RwX7C_FYCQ",
-          "serverName": "md3.univesalsrv.com",
-          "shortId": "9a72d40f1ff882b3",
-          "show": false
-        },
-        "grpcSettings": {
-          "serviceName": "stats.v2.PushService",
-          "idle_timeout": 60,
-          "health_check_timeout": 20
-        }
-      },
-      "tag": "🇲🇩 Молдова | VLESS gRPC Reality"
+      "tag": "🇵🇱 Польша | VLESS TCP Reality"
     },
     {
       "mux": {
@@ -911,7 +1772,156 @@
         "security": "reality",
         "realitySettings": {
           "allowInsecure": false,
-          "fingerprint": "chrome",
+          "fingerprint": "random",
+          "publicKey": "X8mPYnsoTd8QCnvFZKSy7VvpSn_nrt_NWJkCUJhFCyE",
+          "serverName": "rs5.univesalsrv.com",
+          "shortId": "4872856d5489c37d",
+          "show": false,
+          "spiderX": "/"
+        },
+        "grpcSettings": {
+          "serviceName": "gw.v1.ObjectService",
+          "idle_timeout": 60,
+          "health_check_timeout": 20
+        }
+      },
+      "tag": "🇷🇸 Сербия | VLESS gRPC Reality (3)"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "144.31.109.158",
+            "port": 4443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "a35c508f-4d5d-4531-842e-6e9d43c762c0",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "security": "tls",
+        "xhttpSettings": {
+          "host": "",
+          "mode": "auto",
+          "path": "/api/v1/sync/"
+        },
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "firefox",
+          "serverName": "fl3.nexfile.net",
+          "show": false
+        }
+      },
+      "tag": "🇫🇮 Финляндия | VLESS XHTTP TLS"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "168.138.43.75",
+            "port": 80,
+            "users": [
+              {
+                "id": "11c3627f-31e8-4695-dfbd-34076e2f1f5d",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "path": "/cctv13.m3u8",
+          "headers": {
+            "Host": "none"
+          }
+        }
+      },
+      "tag": "🇯🇵 Япония | VMESS WS"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "de8.vpngold.ru",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "a52fd54b-ba4d-4d11-8e00-301e2646cd66",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "security": "reality",
+        "realitySettings": {
+          "allowInsecure": false,
+          "fingerprint": "firefox",
+          "publicKey": "1H1DiBCBB7fpALV71pH1q66ePybBFlVOcxftdlQimQ8",
+          "serverName": "de8.vpngold.ru",
+          "shortId": "385cb18df0892069",
+          "show": false
+        }
+      },
+      "tag": "🇸🇬 Сингапур | VLESS RAW Reality (2)"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "rs5.univesalsrv.com",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "allowInsecure": false,
+          "fingerprint": "firefox",
           "publicKey": "X8mPYnsoTd8QCnvFZKSy7VvpSn_nrt_NWJkCUJhFCyE",
           "serverName": "rs5.univesalsrv.com",
           "shortId": "4872856d5489c37d",
@@ -923,66 +1933,173 @@
           "health_check_timeout": 20
         }
       },
-      "tag": "🇷🇸 Сербия | VLESS gRPC Reality"
+      "tag": "🇷🇸 Сербия | VLESS gRPC Reality (4)"
     },
     {
       "mux": {
         "enabled": false,
         "concurrency": -1
       },
-      "protocol": "vless",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "194.61.31.126",
-            "port": 2053,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "1d4e18bd-1f26-4915-b35a-7ace4826e76a",
-                "level": 8
-              }
-            ]
+            "address": "141.133.174.88",
+            "port": 443,
+            "password": "humanity",
+            "level": 8
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "path": "/assignment"
         },
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "chrome",
-          "publicKey": "PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU",
-          "serverName": "www.apple.com",
-          "shortId": "9980e0609b0d3891",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "www.cordweave.com",
           "show": false
         }
       },
-      "tag": "🇮🇳 Индия | VLESS TCP Reality"
+      "tag": "🇨🇿 Чехия | TROJAN WS TLS"
     },
     {
       "mux": {
         "enabled": false,
         "concurrency": -1
       },
-      "protocol": "vless",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "193.17.183.48",
+            "port": 443,
+            "password": "humanity",
+            "level": 8
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "path": "/assignment"
+        },
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "www.cordweave.com",
+          "show": false
+        }
+      },
+      "tag": "🇪🇸 Испания | TROJAN WS TLS"
+    },
+    {
+      "mux": null,
+      "protocol": "hysteria",
+      "settings": {
+        "address": "fl3.nexfile.net",
+        "port": 4444,
+        "version": 2
+      },
+      "streamSettings": {
+        "network": "hysteria",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "fl3.nexfile.net",
+          "show": false,
+          "alpn": [
+            "h3"
+          ]
+        },
+        "hysteriaSettings": {
+          "version": 2,
+          "auth": "a35c508f-4d5d-4531-842e-6e9d43c762c0"
+        },
+        "finalmask": {
+          "quicParams": {}
+        }
+      },
+      "tag": "🇫🇮 Финляндия | HYSTERIA2 UDP (2)"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "87.236.146.111",
+            "port": 443,
+            "password": "humanity",
+            "level": 8
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "path": "/assignment"
+        },
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "www.cordweave.com",
+          "show": false
+        }
+      },
+      "tag": "🇨🇿 Чехия | TROJAN WS TLS (2)"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "213.238.182.13",
+            "port": 443,
+            "password": "humanity",
+            "level": 8
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "path": "/assignment"
+        },
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "www.cordweave.com",
+          "show": false
+        }
+      },
+      "tag": "🇹🇷 Турция | TROJAN WS TLS (2)"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "vmess",
       "settings": {
         "vnext": [
           {
-            "address": "217.11.164.183",
-            "port": 2112,
+            "address": "eyJ2IjoyLCJwcyI6IvCfh63wn4ewINCT0L7QvdC60L7QvdCzIHwgVk1FU1MgV1MiLCJhZGQiOiIxNTYuMjQ1LjIzMi4yMzkiLCJwb3J0IjozNTA0MywiaWQiOiJiMTVlNDgxZC0xN2U0LTQxYTgtODRjMi0yM2Q0ZjA1MTRkOWEiLCJhaWQiOjAsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOm51bGwsImhvc3QiOiIxNTYuMjQ1LjIzMi4yMzkiLCJwYXRoIjoiLyIsInRscyI6ZmFsc2UsInNuaSI6IiJ9",
+            "port": 0,
             "users": [
               {
-                "encryption": "none",
-                "flow": "",
-                "id": "4476ca08-bdb4-41c1-bae4-a960bdb28c19",
-                "level": 8
+                "id": "",
+                "level": 8,
+                "security": "auto"
               }
             ]
           }
@@ -990,23 +2107,44 @@
       },
       "streamSettings": {
         "network": "tcp",
-        "security": "reality",
         "tcpSettings": {
           "header": {
             "type": "none"
           }
-        },
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "chrome",
-          "publicKey": "bWIOrQAqUWCrz6BGdwaG42xaV-HEo8sUdGqVktUh0XU",
-          "serverName": "www.apple.com",
-          "shortId": "06",
-          "show": false,
-          "spiderX": "/b0801adb7de08fd"
         }
       },
-      "tag": "🇹🇷 Турция | VLESS TCP Reality (2)"
+      "tag": "🇭🇰 Гонконг | VMESS WS (2)"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "eyJhZGQiOiIxNTYuMjQ1LjIzMi4yMzkiLCJpZCI6ImIxNWU0ODFkLTE3ZTQtNDFhOC04NGMyLTIzZDRmMDUxNGQ5YSIsInBvcnQiOiIzNTA0MyIsInNjeSI6ImF1dG8iLCJ2IjoiMiIsIm5ldCI6IndzIiwiaG9zdCI6Ind3dy5wdWJnbW9iaWxlLmNvbSIsInBhdGgiOiIvIiwidGxzIjoibm9uZSIsInBzIjoi8J+HrfCfh7Ag0JPQvtC90LrQvtC90LMgfCBWTUVTUyBXUyJ9",
+            "port": 0,
+            "users": [
+              {
+                "id": "",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        }
+      },
+      "tag": "🇭🇰 Гонконг | VMESS WS (3)"
     },
     {
       "mux": {
@@ -1017,13 +2155,312 @@
       "settings": {
         "vnext": [
           {
-            "address": "206.206.76.75",
+            "address": "150.40.126.21",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "allowInsecure": false,
+          "fingerprint": "chrome",
+          "publicKey": "gHDoSWGWMVZKWNKONWHw-Cpl0-bdI6GaKusgJIQ-vWQ",
+          "serverName": "rs3.univesalsrv.com",
+          "shortId": "35d05b666e2c6cdf",
+          "show": false
+        },
+        "grpcSettings": {
+          "serviceName": "edge.v2.FeedService",
+          "authority": "/t.me/V2rayBaaz",
+          "idle_timeout": 60,
+          "health_check_timeout": 20
+        }
+      },
+      "tag": "🇷🇸 Сербия | VLESS gRPC Reality (5)"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.239.12.81",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "xtls-rprx-vision",
-                "id": "32cf52f4-b8d2-4ed5-a37c-0d0a8e743309",
+                "id": "d806a58b-33aa-42e0-b170-395e49c16b37",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "realitySettings": {
+          "allowInsecure": false,
+          "fingerprint": "firefox",
+          "publicKey": "Y0noOXC8qHmbM0GmDpj-9BBwKSOtHs-uMbNfKU050GQ",
+          "serverName": "www.microsoft.com",
+          "shortId": "b558b9305a0b",
+          "show": false
+        }
+      },
+      "tag": "🇳🇱 Нидерланды | VLESS TCP Reality"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "sports.blog-forme.ru",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "6da2c981-8c77-4340-bda3-93399b7aea26",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "security": "reality",
+        "xhttpSettings": {
+          "host": "",
+          "mode": "auto",
+          "path": "/v2/sync/af2c0c",
+          "extra": {
+            "xmux": {
+              "cMaxReuseTimes": 0,
+              "hKeepAlivePeriod": 0,
+              "hMaxRequestTimes": "1800-3000",
+              "hMaxReusableSecs": "10800-14400",
+              "maxConcurrency": "16-32"
+            }
+          }
+        },
+        "realitySettings": {
+          "allowInsecure": false,
+          "fingerprint": "edge",
+          "publicKey": "nalACuCZjV1sZx7QOH6yAIDio8mFI0FgVKYQvQHBKS4",
+          "serverName": "sports.blog-forme.ru",
+          "shortId": "fb3a5f2d4ca346ed",
+          "show": false
+        }
+      },
+      "tag": "🇳🇱 Нидерланды | VLESS XHTTP Reality"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "eyJhZGQiOiIxNDAuMjM4LjIuMjUwIiwiaWQiOiI0MWE3MDg5YS0wNDBiLTQ1MzgtOGI4ZC0wMTA5MDI0MDViZGUiLCJwb3J0IjoiNDQzIiwic2N5IjoiYXV0byIsInYiOiIyIiwibmV0IjoicmF3IiwidHlwZSI6Im5vbmUiLCJ0bHMiOiJub25lIiwicHMiOiLwn4ew8J+HtyDQmtC+0YDQtdGPIHwgVk1FU1MgUkFXIn0=",
+            "port": 0,
+            "users": [
+              {
+                "id": "",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        }
+      },
+      "tag": "🇰🇷 Корея | VMESS RAW (3)"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "de-2.ffpn.pro",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "727a9178-d7f0-4142-8205-b0d19959ded0",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "security": "reality",
+        "realitySettings": {
+          "allowInsecure": false,
+          "fingerprint": "firefox",
+          "publicKey": "DCpi9-1rSXxBnEIAQ9U3mTqHivk7vHJRV_T2pWw5vCc",
+          "serverName": "de-2.ffpn.pro",
+          "shortId": "681fc2dd643bc2f3",
+          "show": false
+        }
+      },
+      "tag": "🇩🇪 Германия | VLESS RAW Reality"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "hiweb.my.id",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "32413dda-504c-4906-b732-8ecaff901179",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "chrome",
+          "serverName": "hiweb.my.id",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        }
+      },
+      "tag": "🇳🇱 Нидерланды | VLESS RAW TLS"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "199.119.137.32",
+            "port": 8443,
+            "password": "humanity",
+            "level": 8
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "path": "/assignment"
+        },
+        "tlsSettings": {
+          "allowInsecure": true,
+          "fingerprint": "chrome",
+          "serverName": "www.cordweave.com",
+          "show": false
+        }
+      },
+      "tag": "🇺🇸 США | TROJAN WS TLS"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "eyJ2IjoiMiIsInBzIjoi8J+HsPCfh7cg0JrQvtGA0LXRjyB8IFZNRVNTIFRDUCIsImFkZCI6IjEyOS4xNTQuNjEuMTk2IiwicG9ydCI6IjgwMCIsImlkIjoiYTkxNWIxZDYtY2YyOC00ZGM4LWU0YjQtZTA5YzQ4YzM3ZWMwIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ0Y3AiLCJ0eXBlIjoiIiwidGxzIjoiIn0=",
+            "port": 0,
+            "users": [
+              {
+                "id": "",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        }
+      },
+      "tag": "🇰🇷 Корея | VMESS TCP (2)"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "201.58.183.99",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "50a87e21-f0e2-4b53-a787-91adfe748f63",
                 "level": 8
               }
             ]
@@ -1041,13 +2478,446 @@
         "realitySettings": {
           "allowInsecure": false,
           "fingerprint": "chrome",
-          "publicKey": "gSHylaTvEzWj19Bk-zLHXKYUINGWVmo_ybCiD2CRinE",
-          "serverName": "www.cloudflare.com",
-          "shortId": "a775360a48ef5cfb",
+          "publicKey": "_aURfmVUjvCRZipDI2eqMO0VQa64BJRGYFOdlBFi1XQ",
+          "serverName": "geminilanzerotte.live",
           "show": false
         }
       },
-      "tag": "🇸🇬 Сингапур | VLESS TCP Reality"
+      "tag": "🇺🇸 США | VLESS TCP Reality"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "cfnode-11ivy8.pages.dev",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "2ea2719c-23e1-4cde-b192-c8652d55d9e5",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "path": "/ws"
+        },
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "cfnode-11ivy8.pages.dev",
+          "show": false
+        }
+      },
+      "tag": "🇷🇺 Россия | VLESS WS TLS"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "cfnode-11ivy8.pages.dev",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "2ea2719c-23e1-4cde-b192-c8652d55d9e5",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "path": "/"
+        },
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "chrome",
+          "serverName": "cfnode-11ivy8.pages.dev",
+          "show": false
+        }
+      },
+      "tag": "🇷🇺 Россия | VLESS WS TLS (2)"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "201.58.183.173",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "50a87e21-f0e2-4b53-a787-91adfe748f63",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "realitySettings": {
+          "allowInsecure": false,
+          "fingerprint": "chrome",
+          "publicKey": "-BN9yCN0ECqxOPoJOan1-CIMEYc5e7wdJwaeDxsUM20",
+          "serverName": "sundaylanzgem.site",
+          "show": false
+        }
+      },
+      "tag": "🇺🇸 США | VLESS TCP Reality (2)"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "sundaylanzgem.site",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "50a87e21-f0e2-4b53-a787-91adfe748f63",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "realitySettings": {
+          "allowInsecure": false,
+          "fingerprint": "qq",
+          "publicKey": "-BN9yCN0ECqxOPoJOan1-CIMEYc5e7wdJwaeDxsUM20",
+          "serverName": "sundaylanzgem.site",
+          "show": false
+        }
+      },
+      "tag": "🇺🇸 США | VLESS TCP Reality (3)"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "78.40.209.33",
+            "port": 443,
+            "password": "humanity",
+            "level": 8
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "path": "/assignment"
+        },
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "www.cordweave.com",
+          "show": false
+        }
+      },
+      "tag": "🇫🇮 Финляндия | TROJAN WS TLS"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "85.235.64.69",
+            "port": 443,
+            "password": "humanity",
+            "level": 8
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "path": "/assignment"
+        },
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "www.cordweave.com",
+          "show": false
+        }
+      },
+      "tag": "🇩🇪 Германия | TROJAN WS TLS"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "169.58.44.174",
+            "port": 443,
+            "password": "humanity",
+            "level": 8
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "path": "/assignment"
+        },
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "www.cordweave.com",
+          "show": false
+        }
+      },
+      "tag": "🇫🇷 Франция | TROJAN WS TLS"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "212.113.99.18",
+            "port": 443,
+            "password": "humanity",
+            "level": 8
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "path": "/assignment"
+        },
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "www.cordweave.com",
+          "show": false
+        }
+      },
+      "tag": "🇩🇪 Германия | TROJAN WS TLS (2)"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "195.133.92.71",
+            "port": 443,
+            "password": "humanity",
+            "level": 8
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "path": "/assignment"
+        },
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "www.cordweave.com",
+          "show": false
+        }
+      },
+      "tag": "🇵🇹 Португалия | TROJAN WS TLS"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "143.246.223.110",
+            "port": 443,
+            "password": "humanity",
+            "level": 8
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "path": "/assignment"
+        },
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "www.cordweave.com",
+          "show": false
+        }
+      },
+      "tag": "🇲🇩 Молдова | TROJAN WS TLS (2)"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "186.246.9.29",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "b2847c3b-5278-4b06-9c66-bc919d2dfec7",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "realitySettings": {
+          "allowInsecure": false,
+          "fingerprint": "firefox",
+          "publicKey": "MPNMomAMn_lu9YMYjD2jAQWrI-rTM4hj9Jgg9d6qzTA",
+          "serverName": "wordpress.com",
+          "shortId": "50ad5564",
+          "show": false
+        }
+      },
+      "tag": "🇷🇺 Россия | VLESS TCP Reality"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "213.165.34.40",
+            "port": 443,
+            "password": "humanity",
+            "level": 8
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "path": "/assignment"
+        },
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "www.cordweave.com",
+          "show": false
+        }
+      },
+      "tag": "🇸🇪 Швеция | TROJAN WS TLS"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "172.104.185.40",
+            "port": 443,
+            "password": "humanity",
+            "level": 8
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "path": "/assignment"
+        },
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "www.cordweave.com",
+          "show": false
+        }
+      },
+      "tag": "🇸🇬 Сингапур | TROJAN WS TLS"
     },
     {
       "mux": {
@@ -1113,176 +2983,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "195.58.144.56",
-            "port": 11907,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "07cb07b9-0c4d-46c1-a15a-b147511b6b07",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "195.58.144.56",
-          "show": false,
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ]
-        }
-      },
-      "tag": "🇭🇰 Гонконг | VLESS TCP TLS"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "188.132.232.187",
+            "address": "193.8.215.116",
             "port": 8443,
             "users": [
               {
                 "encryption": "none",
-                "flow": "",
-                "id": "42a64b9a-ab79-4094-8656-30366a7c2ea3",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "security": "reality",
-        "xhttpSettings": {
-          "host": "tr.peregrine-sub.net",
-          "mode": "auto",
-          "path": "/"
-        },
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "firefox",
-          "publicKey": "PUj1la__ltNjv_ASE5n4HJY7GiRs--N-0aYhkcAApCI",
-          "serverName": "tr.peregrine-sub.net",
-          "shortId": "7b6803a79bba5c52",
-          "show": false
-        }
-      },
-      "tag": "🇹🇷 Турция | VLESS XHTTP Reality"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "188.132.232.187",
-            "port": 1443,
-            "users": [
-              {
-                "encryption": "none",
                 "flow": "xtls-rprx-vision",
-                "id": "42a64b9a-ab79-4094-8656-30366a7c2ea3",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "chrome",
-          "publicKey": "PUj1la__ltNjv_ASE5n4HJY7GiRs--N-0aYhkcAApCI",
-          "serverName": "tr.peregrine-sub.net",
-          "shortId": "7b6803a79bba5c52",
-          "show": false
-        }
-      },
-      "tag": "🇹🇷 Турция | VLESS TCP Reality (3)"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "2072832344a7fb53.tunvi.w-ert.org",
-            "port": 47291,
-            "users": [
-              {
-                "encryption": "mlkem768x25519plus.native.0rtt.g4zPsP8_Ju17nfVQ9cRaBqzWPbv0Ve4ELGpzE9yf8CA",
-                "flow": "xtls-rprx-vision",
-                "id": "38184696-21c9-41ab-9a62-2a1da5e0df53",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "chrome",
-          "serverName": "ask.w-ert.org",
-          "show": false
-        }
-      },
-      "tag": "🇮🇷 Иран | VLESS TCP TLS"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "146.235.16.130",
-            "port": 19825,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "2d1ad594-80a4-4bfb-87a6-038e39701f51",
+                "id": "706bce83-91db-4260-b175-cba29145cd56",
                 "level": 8
               }
             ]
@@ -1300,13 +3007,13 @@
         "realitySettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
-          "publicKey": "GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI",
-          "serverName": "sg2-8sb.6121999.dpdns.org",
-          "shortId": "6ba85179e30d4fc2",
+          "publicKey": "HhT-m2xbI4X_o99Hzkh40v-r32sIydYNCbA7Bnqh7AY",
+          "serverName": "aezau1.uni-plan.com",
+          "shortId": "8f0f92607e5b353c",
           "show": false
         }
       },
-      "tag": "🇸🇬 Сингапур | VLESS TCP Reality (2)"
+      "tag": "🇦🇹 Австрия | VLESS TCP Reality (3)"
     },
     {
       "mux": {
@@ -1317,13 +3024,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "122.176.216.52",
+            "address": "188.114.98.0",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88",
+                "id": "91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a",
                 "level": 8
               }
             ]
@@ -1334,616 +3041,31 @@
         "network": "ws",
         "security": "tls",
         "wsSettings": {
-          "path": "/ws/16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88",
+          "path": "/nvl-n04-ws/e0577fe8fd7c8823",
           "headers": {
-            "Host": "app-6ada5023.deploy.meerasolution.com"
-          }
-        },
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "chrome",
-          "serverName": "app-6ada5023.deploy.meerasolution.com",
-          "show": false
-        }
-      },
-      "tag": "🇮🇳 Индия | VLESS WS TLS"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "122.176.216.52",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "wsSettings": {
-          "path": "/ws/16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88",
-          "headers": {
-            "Host": "app-6ada5023.deploy.meerasolution.com"
-          }
-        },
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "chrome",
-          "serverName": "app-6ada5023.deploy.meerasolution.com",
-          "show": false,
-          "alpn": [
-            "h2"
-          ]
-        }
-      },
-      "tag": "🇮🇳 Индия | VLESS WS TLS (2)"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "95.56.251.12",
-            "port": 47443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "1fe01c8a-ab37-4e95-bbfc-95d4a608931e",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "firefox",
-          "publicKey": "z1GSwCEACvO9RLcMVpcURiT8er4oeIdeSJhraw_0cGU",
-          "serverName": "kz1.waspnest.space",
-          "shortId": "ae97223a8f799877",
-          "show": false
-        }
-      },
-      "tag": "🇰🇿 Казахстан | VLESS TCP Reality"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "f0c3e8501ac0fab6.tunvi.w-ert.org",
-            "port": 50332,
-            "users": [
-              {
-                "encryption": "mlkem768x25519plus.native.0rtt.g4zPsP8_Ju17nfVQ9cRaBqzWPbv0Ve4ELGpzE9yf8CA",
-                "flow": "xtls-rprx-vision",
-                "id": "38184696-21c9-41ab-9a62-2a1da5e0df53",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "chrome",
-          "serverName": "ask.w-ert.org",
-          "show": false
-        }
-      },
-      "tag": "🇮🇷 Иран | VLESS TCP TLS (2)"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.253.216.227",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "106d20f6-d70a-40e2-b69b-8e82baf8d117",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "firefox",
-          "publicKey": "FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg",
-          "serverName": "www.microsoft.com",
-          "shortId": "60500a63ad12",
-          "show": false
-        }
-      },
-      "tag": "🇺🇦 Украина | VLESS TCP Reality (2)"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "sg2-8sb.6121999.dpdns.org",
-            "port": 19825,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "2d1ad594-80a4-4bfb-87a6-038e39701f51",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "chrome",
-          "publicKey": "GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI",
-          "serverName": "sg2-8sb.6121999.dpdns.org",
-          "show": false
-        }
-      },
-      "tag": "🇸🇬 Сингапур | VLESS TCP Reality (3)"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "820fa60d74ec17d7.tunvi.w-ert.org",
-            "port": 38780,
-            "users": [
-              {
-                "encryption": "mlkem768x25519plus.native.0rtt.g4zPsP8_Ju17nfVQ9cRaBqzWPbv0Ve4ELGpzE9yf8CA",
-                "flow": "xtls-rprx-vision",
-                "id": "38184696-21c9-41ab-9a62-2a1da5e0df53",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "chrome",
-          "serverName": "ask.w-ert.org",
-          "show": false
-        }
-      },
-      "tag": "🇮🇷 Иран | VLESS TCP TLS (3)"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "staging.lastilhame.monster",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "2f6e2b17-4d5e-4a12-8979-f53fdd347580",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "raw",
-        "security": "reality",
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "chrome",
-          "publicKey": "FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg",
-          "serverName": "www.mozilla.org",
-          "shortId": "5c8a8e6c615b",
-          "show": false
-        }
-      },
-      "tag": "🇺🇦 Украина | VLESS TCP Reality (3)"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "staging.lastilhame.monster",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "455cfdc6-9abf-4e40-863f-5ff6cc63457c",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "chrome",
-          "publicKey": "FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg",
-          "serverName": "www.microsoft.com",
-          "shortId": "18e4d2d21241",
-          "show": false
-        }
-      },
-      "tag": "🇺🇦 Украина | VLESS TCP Reality (4)"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "154.31.114.162",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "wsSettings": {
-          "path": "/tyxyws",
-          "headers": {
-            "Host": "jp3.yohototo.top"
+            "Host": "n04.jinggai.online"
           }
         },
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "unsafe",
-          "serverName": "jp3.yohototo.top",
-          "show": false
-        }
-      },
-      "tag": "🇯🇵 Япония | VLESS WS TLS (2)"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "hw6.divarkhaghazi.com",
-            "port": 465,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "09f30c46-3964-41ce-882a-72aee83ddd42",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "wsSettings": {
-          "path": "/?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM",
-          "headers": {
-            "Host": "hw6.divarkhaghazi.com."
-          }
-        },
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "chrome",
-          "serverName": "hw6.divarkhaghazi.com.",
+          "serverName": "n04.jinggai.online",
           "show": false,
           "alpn": [
             "http/1.1"
           ]
-        }
-      },
-      "tag": "🇫🇮 Финляндия | VLESS WS TLS"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "rs3.univesalsrv.com",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "grpc",
-        "security": "reality",
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "chrome",
-          "publicKey": "gHDoSWGWMVZKWNKONWHw-Cpl0-bdI6GaKusgJIQ-vWQ",
-          "serverName": "rs3.univesalsrv.com",
-          "shortId": "35d05b666e2c6cdf",
-          "show": false
         },
-        "grpcSettings": {
-          "serviceName": "edge.v2.FeedService",
-          "authority": "/V2rayBaaz",
-          "idle_timeout": 60,
-          "health_check_timeout": 20
-        }
-      },
-      "tag": "🇷🇸 Сербия | VLESS gRPC Reality (2)"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "145.223.68.58",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "edb50d20-2d3e-4c1e-8a75-a17168a89aa5",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "chrome",
-          "publicKey": "qc2DcqT9zPPZr6ePZ7ukxACWrYhRNIBjDIjCK7veyQg",
-          "serverName": "www.cloudflare.com",
-          "shortId": "a44ff7d2e80213c2",
-          "show": false
-        }
-      },
-      "tag": "🇫🇷 Франция | VLESS TCP Reality (2)"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "195.123.213.28",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "02fcc1a4-ee90-4970-8bbb-4ffaa8109d24",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "chrome",
-          "publicKey": "NMgy1XgCSXExOg6Tg8xG9lCWttMF6sjdpB41lZy6FWo",
-          "serverName": "www.cloudflare.com",
-          "shortId": "5c256336e3b673fa",
-          "show": false
-        }
-      },
-      "tag": "🇱🇻 Латвия | VLESS TCP Reality (2)"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "94.158.219.126",
-            "port": 443,
-            "password": "humanity",
-            "level": 8
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "wsSettings": {
-          "path": "/assignment",
-          "headers": {
-            "Host": "www.pleadcourt.org"
-          }
-        },
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "www.pleadcourt.org",
-          "show": false
-        }
-      },
-      "tag": "🇱🇻 Латвия | TROJAN WS TLS"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "saas.sin.fan",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "f27b6f65-6e59-4f89-b929-afa397ca587f",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "wsSettings": {
-          "path": "/019bcbad-3813-7cce-8786-3ac0e418f128?ed=2560",
-          "headers": {
-            "Host": "n.bitpulse.me"
-          }
-        },
-        "tlsSettings": {
-          "allowInsecure": true,
-          "fingerprint": "firefox",
-          "serverName": "n.bitpulse.me",
-          "show": false
+        "finalmask": {
+          "tcp": [
+            {
+              "type": "fragment",
+              "settings": {}
+            },
+            {
+              "type": "fragment",
+              "settings": {}
+            }
+          ]
         }
       },
       "tag": "🇨🇦 Канада | VLESS WS TLS (2)"
@@ -1953,205 +3075,20 @@
         "enabled": false,
         "concurrency": -1
       },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "eyJ2IjoiMiIsInBzIjoi8J+HrvCfh7Mg0JjQvdC00LjRjyB8IFZNRVNTIFdTIiwiYWRkIjoiMTUyLjY3LjguMjA1IiwicG9ydCI6IjgwIiwiaWQiOiI5ZGI0YzcwOC1hZWY4LTQzNTktODIxYi0zOGU0Nzk5MGJlMGQiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6Im5vbmUiLCJob3N0IjoiIiwicGF0aCI6Ii8iLCJ0bHMiOiIiLCJzbmkiOiLwn4eu8J+Hs0lOLTE1Mi42Ny44LjIwNS0wMjY1IHwgMC4wNDZNQiIsImFscG4iOiIiLCJmcCI6IiIsImluc2VjdXJlIjoiMCJ9",
-            "port": 0,
-            "users": [
-              {
-                "id": "",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
-        }
-      },
-      "tag": "🇮🇳 Индия | VMESS WS"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
-          {
-            "address": "hw7.divarkhaghazi.com",
-            "port": 465,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "d0d3d49c-56e8-40e1-9e83-793d03f83d93",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "wsSettings": {
-          "path": "/?Telegram—V2ray_confiig"
-        },
-        "tlsSettings": {
-          "allowInsecure": true,
-          "fingerprint": "chrome",
-          "serverName": "hw7.divarkhaghazi.com.",
-          "show": false
-        }
-      },
-      "tag": "🇩🇪 Германия | VLESS WS TLS"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "67.159.52.51",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "a0fa7e19-70ec-41e0-b0cc-bcc984d4201a",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "chrome",
-          "publicKey": "iE4sTz-Q2Frkm7WM32P1wm4at49Wpaj5vo-2FsLcN1M",
-          "serverName": "snp.bsh-net.ru",
-          "shortId": "8854f17e2a5af2d8",
-          "show": false
-        }
-      },
-      "tag": "🇸🇬 Сингапур | VLESS TCP Reality (4)"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "sg2-8sb.6121999.dpdns.org",
-            "port": 19825,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "2d1ad594-80a4-4bfb-87a6-038e39701f51",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "chrome",
-          "publicKey": "GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI",
-          "serverName": "sg2-8sb.6121999.dpdns.org",
-          "shortId": "6ba85179e30d4fc2",
-          "show": false
-        }
-      },
-      "tag": "🇸🇬 Сингапур | VLESS TCP Reality (5)"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "186.246.9.29",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "b2847c3b-5278-4b06-9c66-bc919d2dfec7",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "firefox",
-          "publicKey": "MPNMomAMn_lu9YMYjD2jAQWrI-rTM4hj9Jgg9d6qzTA",
-          "serverName": "wordpress.com",
-          "shortId": "50ad5564",
-          "show": false
-        }
-      },
-      "tag": "🇷🇺 Россия | VLESS TCP Reality (2)"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
           {
             "address": "188.114.98.0",
             "port": 443,
-            "password": "humanity",
-            "level": 8
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "326227e2-f2d1-4f43-8715-9da854f5f4c0",
+                "level": 8
+              }
+            ]
           }
         ]
       },
@@ -2159,15 +3096,15 @@
         "network": "ws",
         "security": "tls",
         "wsSettings": {
-          "path": "/assignment?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM",
+          "path": "/326227e2-f2d1-4f43-8715-9da854f5f4c0",
           "headers": {
-            "Host": "www.trusteeforward.com"
+            "Host": "px2.5ibtc.cn"
           }
         },
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "unsafe",
-          "serverName": "www.trusteeforward.com",
+          "serverName": "px2.5ibtc.cn",
           "show": false,
           "alpn": [
             "http/1.1"
@@ -2193,14 +3130,20 @@
         "enabled": false,
         "concurrency": -1
       },
-      "protocol": "trojan",
+      "protocol": "vless",
       "settings": {
-        "servers": [
+        "vnext": [
           {
             "address": "188.114.98.0",
             "port": 443,
-            "password": "humanity",
-            "level": 8
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "f27b6f65-6e59-4f89-b929-afa397ca587f",
+                "level": 8
+              }
+            ]
           }
         ]
       },
@@ -2208,15 +3151,15 @@
         "network": "ws",
         "security": "tls",
         "wsSettings": {
-          "path": "/assignment?Telegram---Config7x--CONFIG7X",
+          "path": "/019bcbad-3813-7cce-8786-3ac0e418f128?ed=2560",
           "headers": {
-            "Host": "www.calmlunch.com"
+            "Host": "n.bitpulse.me"
           }
         },
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "unsafe",
-          "serverName": "www.calmlunch.com",
+          "serverName": "n.bitpulse.me",
           "show": false,
           "alpn": [
             "http/1.1"
@@ -2246,52 +3189,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "hw6.divarkhaghazi.com",
-            "port": 465,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "09f30c46-3964-41ce-882a-72aee83ddd42",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "wsSettings": {
-          "path": "/",
-          "headers": {
-            "Host": "hw6.divarkhaghazi.com."
-          }
-        },
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "hw6.divarkhaghazi.com.",
-          "show": false
-        }
-      },
-      "tag": "🇫🇮 Финляндия | VLESS WS TLS (2)"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "193.233.88.34",
-            "port": 8443,
+            "address": "93.115.24.135",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "xtls-rprx-vision",
-                "id": "d5b3e363-4143-435f-80d3-a51568283a22",
+                "id": "4ce73e66-1337-466b-8308-2abb812f9682",
                 "level": 8
               }
             ]
@@ -2304,747 +3208,13 @@
         "realitySettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
-          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-          "serverName": "de7-site.kartamira.cc",
-          "shortId": "6ba85179e30d4fc2",
+          "publicKey": "zZjrHRzULoXKVccVdPqtrtXLEUPJXwqdE1138vu5x3w",
+          "serverName": "admin.betust.net",
+          "shortId": "3e137406",
           "show": false
         }
       },
-      "tag": "🇷🇺 Россия | VLESS RAW Reality"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "67.159.56.34",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "a0fa7e19-70ec-41e0-b0cc-bcc984d4201a",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "firefox",
-          "publicKey": "KrZl0re4FvurjosoMsVmRiB0ZAKKibYP-xbn6gwQtG0",
-          "serverName": "eng.bsh-net.ru",
-          "shortId": "96124ddd85d0c67c",
-          "show": false
-        }
-      },
-      "tag": "🇬🇧 Англия | VLESS TCP Reality"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "86.38.112.69",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "b7301c37-be8a-4ff1-89de-6117ff0f0113",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "raw",
-        "security": "reality",
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "firefox",
-          "publicKey": "I_-Mb_q3_4-ZdzrzB6SKh-Zla1kKI4M_0OMjWDYXVxg",
-          "serverName": "tere.rekonkista.icu",
-          "shortId": "13d8fbd7fd9e1ce8",
-          "show": false
-        }
-      },
-      "tag": "🇳🇱 Нидерланды | VLESS RAW Reality"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "86.38.112.69",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "b7301c37-be8a-4ff1-89de-6117ff0f0113",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "firefox",
-          "publicKey": "I_-Mb_q3_4-ZdzrzB6SKh-Zla1kKI4M_0OMjWDYXVxg",
-          "serverName": "tere.rekonkista.icu",
-          "shortId": "13d8fbd7fd9e1ce8",
-          "show": false
-        }
-      },
-      "tag": "🇳🇱 Нидерланды | VLESS RAW Reality (2)"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "153.75.86.200",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "95fe46c3-6cfb-5116-beb7-459d4c7db0ad",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "edge",
-          "publicKey": "JNp0hUDwHZQw9kbwd-D1WfIOdqCtdJeBv1WTNp37V0M",
-          "serverName": "www.apple.com",
-          "shortId": "7e7434c068cbef5a",
-          "show": false
-        }
-      },
-      "tag": "🇳🇱 Нидерланды | VLESS TCP Reality"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "176.124.223.254",
-            "port": 5555,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "d5b3e363-4143-435f-80d3-a51568283a22",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "raw",
-        "security": "reality",
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "firefox",
-          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-          "serverName": "de1-site.kartamira.cc",
-          "show": false
-        }
-      },
-      "tag": "🇨🇳 Китай | VLESS RAW Reality"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "93.152.206.97",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "6db6b948-655f-4f68-a9e7-865050e05b31",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "raw",
-        "security": "reality",
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "firefox",
-          "publicKey": "-zjl4KNE4PFeuthfmw_2JeCbiXAA2kaoYVHODPq-sXQ",
-          "serverName": "remote.propaint.cl",
-          "shortId": "aca2fc",
-          "show": false
-        }
-      },
-      "tag": "🇧🇬 Болгария | VLESS RAW Reality"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "178.17.52.236",
-            "port": 2083,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "6da2c981-8c77-4340-bda3-93399b7aea26",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "security": "reality",
-        "xhttpSettings": {
-          "host": "",
-          "mode": "auto",
-          "path": "/v2/sync/6e9367"
-        },
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "edge",
-          "publicKey": "mbi4BZAuiq_L6pfhG2xxWmtosq0Z1Pzf18fvNSWKMxY",
-          "serverName": "maps.blog-forme.ru",
-          "shortId": "3258252d44113e23",
-          "show": false
-        }
-      },
-      "tag": "🇩🇪 Германия | VLESS XHTTP Reality"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "144.31.140.125",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "f5e70ce3-cfb4-4df1-b25c-d19bfae627c0",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "firefox",
-          "publicKey": "wgyw3OxZw4HEzedNdY_eHdcVkrtT7GEeZSHfzcZ8iDo",
-          "serverName": "twitch.tv",
-          "shortId": "168c15efac9df5fd",
-          "show": false
-        }
-      },
-      "tag": "🇩🇪 Германия | VLESS TCP Reality"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "144.31.109.142",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "3de59cd0-f92c-40bf-829c-db7bf6043d1d",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "safari",
-          "publicKey": "jVNJH18MECOqhciQLa-w7Y7yp3N9IdseIDpgCEu2LhU",
-          "serverName": "fi.reus.lol",
-          "shortId": "81785a5f59d66d7d",
-          "show": false
-        }
-      },
-      "tag": "🇫🇮 Финляндия | VLESS TCP Reality"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "130.49.162.137",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "689a62e4-37e7-41de-9e6a-f2a56368c9e2",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "raw",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "firefox",
-          "serverName": "sk3.speedtestinternet.link",
-          "show": false
-        }
-      },
-      "tag": "🇸🇰 Словакия | VLESS RAW TLS"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "fi.reus.lol",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "3de59cd0-f92c-40bf-829c-db7bf6043d1d",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "raw",
-        "security": "reality",
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "safari",
-          "publicKey": "jVNJH18MECOqhciQLa-w7Y7yp3N9IdseIDpgCEu2LhU",
-          "serverName": "fi.reus.lol",
-          "shortId": "81785a5f59d66d7d",
-          "show": false
-        }
-      },
-      "tag": "🇫🇮 Финляндия | VLESS RAW Reality"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "shorts.blog-forme.ru",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "6da2c981-8c77-4340-bda3-93399b7aea26",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "security": "reality",
-        "xhttpSettings": {
-          "host": "",
-          "mode": "auto",
-          "path": "/v2/sync/af2c0c",
-          "extra": {
-            "xmux": {
-              "cMaxReuseTimes": 0,
-              "hKeepAlivePeriod": 0,
-              "hMaxRequestTimes": "1800-3000",
-              "hMaxReusableSecs": "10800-14400",
-              "maxConcurrency": "16-32"
-            }
-          }
-        },
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "edge",
-          "publicKey": "nalACuCZjV1sZx7QOH6yAIDio8mFI0FgVKYQvQHBKS4",
-          "serverName": "shorts.blog-forme.ru",
-          "shortId": "fb3a5f2d4ca346ed",
-          "show": false
-        }
-      },
-      "tag": "🇳🇱 Нидерланды | VLESS XHTTP Reality"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "177.1.192.67",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "706bce83-91db-4260-b175-cba29145cd56",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "raw",
-        "security": "reality",
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "firefox",
-          "publicKey": "5QmUszafz1gigUjf3R2GwZ9RVsEwZT-polu0l8zfNgA",
-          "serverName": "up4.uni-plan.com",
-          "shortId": "830e615a39f4c811",
-          "show": false
-        }
-      },
-      "tag": "🇵🇱 Польша | VLESS RAW Reality"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "ch2.h1cloud.net",
-            "port": 25879,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "241306b3-9f27-4ed3-9524-6c0792c55856",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "firefox",
-          "publicKey": "XuI492LMe1OPIwQH5TQlIo33JRqMM3kfnto62tbx5FU",
-          "serverName": "www.bing.com",
-          "shortId": "f1a7a14461a3f389",
-          "show": false
-        }
-      },
-      "tag": "🇷🇺 Россия | VLESS TCP Reality (3)"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "156.252.229.159",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "3e21e3d3-6d26-4155-b851-764dd8e8c6b5",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "raw",
-        "security": "reality",
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "chrome",
-          "publicKey": "7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A",
-          "serverName": "play.googleapis.com",
-          "shortId": "974f7f8f",
-          "show": false
-        }
-      },
-      "tag": "🇲🇽 Мексика | VLESS TCP Reality (2)"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "156.252.229.11",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "3e21e3d3-6d26-4155-b851-764dd8e8c6b5",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "raw",
-        "security": "reality",
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "firefox",
-          "publicKey": "7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A",
-          "serverName": "play.googleapis.com",
-          "shortId": "974f7f8f",
-          "show": false
-        }
-      },
-      "tag": "🇲🇽 Мексика | VLESS RAW Reality"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "BARSLONA.zqpm.ir",
-            "port": 5780,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "dfeefa47-3aac-495d-87ea-3155fd86aa7b",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "raw",
-        "security": "reality",
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "chrome",
-          "publicKey": "PF8LdirtBEOQ_w9-1-i3mhgeFYbIQ1iOu1FPCfxUHQo",
-          "serverName": "yahoo.com",
-          "shortId": "2efbb0033df59520",
-          "show": false
-        }
-      },
-      "tag": "🇩🇪 Германия | VLESS RAW Reality"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "piracy-android.video-streams.org",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "e20c9b29-4d10-4311-80f2-feeb21450230",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "wsSettings": {
-          "path": "/ws",
-          "headers": {
-            "Host": "piracy-android.video-streams.org"
-          }
-        },
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "chrome",
-          "serverName": "piracy-android.video-streams.org",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ]
-        }
-      },
-      "tag": "🇩🇪 Германия | VLESS WS TLS (2)"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "130.94.77.169",
-            "port": 29813,
-            "password": "5t6i121em5lkmsmk",
-            "level": 8
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "firefox",
-          "serverName": "en001.zestapp778.com",
-          "show": false
-        }
-      },
-      "tag": "🇬🇧 Англия | TROJAN TCP TLS"
+      "tag": "🇱🇹 Литва | VLESS RAW Reality"
     },
     {
       "mux": {
@@ -3105,13 +3275,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "78.17.27.137",
-            "port": 8443,
+            "address": "84.32.177.63",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
-                "flow": "",
-                "id": "48d9a277-776b-4ab8-a357-88a1958beed8",
+                "flow": "xtls-rprx-vision",
+                "id": "2232d904-8e6a-4202-8240-6efd8aec02e9",
                 "level": 8
               }
             ]
@@ -3129,13 +3299,13 @@
         "realitySettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
-          "publicKey": "DZ0BYEIHEe9KmJzM_j5EAN0t3_BTcfO63P7x6SRCeQM",
-          "serverName": "www.aalto.fi",
-          "shortId": "a05ccbf2edb5ebd1",
+          "publicKey": "xNzdfy4hPv-IgM_MSn64FNQdb-UPu78pmM-GBE1HhSo",
+          "serverName": "app.betust.net",
+          "shortId": "ef5d4ad5",
           "show": false
         }
       },
-      "tag": "🇫🇮 Финляндия | VLESS TCP Reality (2)"
+      "tag": "🇳🇱 Нидерланды | VLESS TCP Reality (2)"
     },
     {
       "mux": {
@@ -3146,174 +3316,54 @@
       "settings": {
         "vnext": [
           {
-            "address": "gernode.barnikle1.me",
-            "port": 1412,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "94c5a8a7-4296-400d-b413-639157be5224",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "chrome",
-          "publicKey": "bNpg56GtTArrVyrnonNlMA-3JyYIAFATdgsH_wn0gmc",
-          "serverName": "www.dhl.de",
-          "shortId": "4ea6a183",
-          "show": false
-        }
-      },
-      "tag": "🇩🇪 Германия | VLESS TCP Reality (2)"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "177.1.192.117",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "706bce83-91db-4260-b175-cba29145cd56",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "realitySettings": {
-          "allowInsecure": false,
-          "publicKey": "Lt3gSdGmfQMx50yH-OOJaNBSg80vzIveaNVwUUWJwzQ",
-          "serverName": "up7.uni-plan.com",
-          "shortId": "3952a220c86628a8",
-          "show": false
-        }
-      },
-      "tag": "🇵🇱 Польша | VLESS TCP Reality (2)"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "137.74.16.237",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "aaec4e42-a095-44b6-a239-f16d234a0798",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "realitySettings": {
-          "allowInsecure": false,
-          "publicKey": "7LSzvilTVKGMtBDuKGeMrLtlhY7tQf5YcG566dEgO0I",
-          "serverName": "www.icloud.com",
-          "shortId": "b390e0a721d242b0",
-          "show": false
-        }
-      },
-      "tag": "🇫🇷 Франция | VLESS RAW Reality (2)"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "177.1.192.38",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "706bce83-91db-4260-b175-cba29145cd56",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "realitySettings": {
-          "allowInsecure": false,
-          "publicKey": "rczv8z0BFqH3QS9PfFAzLYZY8Iao1yEBhwcRskkQugo",
-          "serverName": "upnl.giftsbattle.vip",
-          "shortId": "b3e515e37815559d",
-          "show": false
-        }
-      },
-      "tag": "🇵🇱 Польша | VLESS TCP Reality (3)"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "ee.h1cloud.net",
-            "port": 25895,
+            "address": "178.17.52.236",
+            "port": 2083,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "f90b7d43-69e2-4b46-a672-8029bc6796a2",
+                "id": "6da2c981-8c77-4340-bda3-93399b7aea26",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "security": "reality",
+        "xhttpSettings": {
+          "host": "",
+          "mode": "auto",
+          "path": "/v2/sync/6e9367"
+        },
+        "realitySettings": {
+          "allowInsecure": false,
+          "fingerprint": "edge",
+          "publicKey": "mbi4BZAuiq_L6pfhG2xxWmtosq0Z1Pzf18fvNSWKMxY",
+          "serverName": "maps.blog-forme.ru",
+          "shortId": "3258252d44113e23",
+          "show": false
+        }
+      },
+      "tag": "🇩🇪 Германия | VLESS XHTTP Reality"
+    },
+    {
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "88.216.70.39",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "4ce73e66-1337-466b-8308-2abb812f9682",
                 "level": 8
               }
             ]
@@ -3330,14 +3380,14 @@
         },
         "realitySettings": {
           "allowInsecure": false,
-          "fingerprint": "chrome",
-          "publicKey": "jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k",
-          "serverName": "www.samsung.com",
-          "shortId": "a73f0410d728c823",
+          "fingerprint": "firefox",
+          "publicKey": "TRaUsnzFf-AhWUuW4RQUQOBYTdM-qJdLDTTkzQNkcRw",
+          "serverName": "tickets.betust.net",
+          "shortId": "f70764f8",
           "show": false
         }
       },
-      "tag": "🇪🇪 Эстония | VLESS TCP Reality"
+      "tag": "🇩🇪 Германия | VLESS TCP Reality"
     },
     {
       "mux": {
@@ -3348,13 +3398,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "78.135.73.47",
-            "port": 443,
+            "address": "213.165.54.59",
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "25e16692-d097-4e69-9e2d-8415609c1968",
+                "flow": "",
+                "id": "6da2c981-8c77-4340-bda3-93399b7aea26",
                 "level": 8
               }
             ]
@@ -3362,23 +3412,23 @@
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "xhttp",
         "security": "reality",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
+        "xhttpSettings": {
+          "host": "",
+          "mode": "auto",
+          "path": "/entry-xh"
         },
         "realitySettings": {
           "allowInsecure": false,
-          "fingerprint": "chrome",
-          "publicKey": "sZAJkAu23wp1WKY-qeaeiwR38izP5OyfhumoE9xhbB8",
-          "serverName": "www.datadoghq.com",
-          "shortId": "f46cd3ea3d1eb72d",
+          "fingerprint": "edge",
+          "publicKey": "CI4hMTvVsem9mloOgRCW9A6WC-srPPwu3jlylwOnd3A",
+          "serverName": "www.kinopoisk.ru",
+          "shortId": "2e6d668958829998",
           "show": false
         }
       },
-      "tag": "🇹🇷 Турция | VLESS TCP Reality (4)"
+      "tag": "🇷🇺 Россия | VLESS XHTTP Reality"
     },
     {
       "mux": {
@@ -3389,13 +3439,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "195.123.235.177",
+            "address": "222.167.245.16",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "xtls-rprx-vision",
-                "id": "729dd5f2-f5ff-4070-8c10-863eceded0b1",
+                "id": "7d43670b-6b08-45b9-8a24-8f3971abc132",
                 "level": 8
               }
             ]
@@ -3403,86 +3453,17 @@
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "raw",
         "security": "reality",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
         "realitySettings": {
           "allowInsecure": false,
-          "fingerprint": "chrome",
-          "publicKey": "5B83otQ5ZQwtBFhR7xzsGJRXflkFKRJpQguYbE5JWGI",
-          "serverName": "gateway.icloud.com",
-          "shortId": "c85d029f5e8eb393",
+          "fingerprint": "firefox",
+          "publicKey": "j4Uc6ljg9by_VKYywo5h2N-eh3kpUbFL5Bsp8-AX4Qk",
+          "serverName": "poland.biznes.lol",
           "show": false
         }
       },
-      "tag": "🇺🇸 США | VLESS TCP Reality"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7gg0KHQqNCQIHwgVk1FU1MgVENQIiwiYWRkIjoiODQuMTcuNDEuMiIsInBvcnQiOiIxODAwMCIsImlkIjoiZjhjOGRjM2QtMGQzNy00NmIwLThiMzQtYTcyMzI4ODJmY2ZlIiwiYWlkIjoiMCIsInNjeSI6Im5vbmUiLCJuZXQiOiJ0Y3AiLCJ0eXBlIjoibm9uZSIsImhvc3QiOiIiLCJwYXRoIjoiIiwidGxzIjoiIiwic25pIjoiIiwidGVzdF9uYW1lIjoiVVMyIn0=",
-            "port": 0,
-            "users": [
-              {
-                "id": "",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
-        }
-      },
-      "tag": "🇺🇸 США | VMESS TCP"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "66.163.118.244",
-            "port": 443,
-            "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-            "level": 8
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "api.discovergreatjobsandadvanceyourcareer.com",
-          "show": false
-        }
-      },
-      "tag": "🇪🇸 Испания | TROJAN TCP TLS"
+      "tag": "🇵🇱 Польша | VLESS RAW Reality (2)"
     },
     {
       "mux": {
@@ -3493,13 +3474,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "83.147.18.75",
+            "address": "188.130.209.222",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "xtls-rprx-vision",
-                "id": "5de0c218-0138-45d8-94d2-c2c3f37a1a6d",
+                "id": "5c2b47d0-38c0-4b01-b8ff-ab1c145292f0",
                 "level": 8
               }
             ]
@@ -3517,55 +3498,13 @@
         "realitySettings": {
           "allowInsecure": false,
           "fingerprint": "qq",
-          "publicKey": "tfFzmbVByvoZxxIEUiHMv22_k0-nQz00L0XjU0bd_Fc",
-          "serverName": "www.bing.com",
-          "shortId": "7f1e29593aa94ad1",
-          "show": false,
-          "spiderX": "/"
-        }
-      },
-      "tag": "🇬🇧 Англия | VLESS TCP Reality (2)"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "77.91.69.169",
-            "port": 19226,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "f0b144bd-4c44-440d-b630-d79ec82cad3a",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "chrome",
-          "publicKey": "PQjgf7GxBd2tDXf0zl9Z5rTZo7LdsWj0hGZLH-lJ-Uk",
-          "serverName": "yahoo.com",
-          "shortId": "7c",
+          "publicKey": "6vubZmkLVtaiFF8JyGFy7XSy2pc7ywN4P625QLKw8wc",
+          "serverName": "thumbs.mycdn-io.ru",
+          "shortId": "11979c0c9b2da371",
           "show": false
         }
       },
-      "tag": "🇮🇱 Израиль | VLESS RAW Reality (2)"
+      "tag": "🇷🇺 Россия | VLESS TCP Reality (2)"
     },
     {
       "mux": {
@@ -3576,175 +3515,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "av.neuroniko.com",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "69158986-cfae-4567-8391-0f96d9d985bd",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "firefox",
-          "publicKey": "ud15DX-emDBS7QsLMabJ7CjgIteK61jxwSp1v0Fewxc",
-          "serverName": "av.neuroniko.com",
-          "shortId": "10a59b0a94367ac2",
-          "show": false
-        }
-      },
-      "tag": "🇦🇹 Австрия | VLESS TCP Reality"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "169.40.42.202",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "d65cc14c-f53f-4fe2-b262-97856601319c",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "chrome",
-          "publicKey": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "serverName": "yahoo.com",
-          "shortId": "c39cc7310a",
-          "show": false
-        }
-      },
-      "tag": "🇺🇸 США | VLESS TCP Reality (2)"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "77.91.68.70",
-            "port": 55983,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "f667a096-5231-4cfb-8759-92bb32473139",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "realitySettings": {
-          "allowInsecure": false,
-          "publicKey": "nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg",
-          "serverName": "yahoo.com",
-          "shortId": "0e",
-          "show": false
-        }
-      },
-      "tag": "🇦🇲 Армения | VLESS TCP Reality (2)"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "193.8.215.116",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "706bce83-91db-4260-b175-cba29145cd56",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "realitySettings": {
-          "allowInsecure": false,
-          "publicKey": "HhT-m2xbI4X_o99Hzkh40v-r32sIydYNCbA7Bnqh7AY",
-          "serverName": "aezau1.uni-plan.com",
-          "shortId": "8f0f92607e5b353c",
-          "show": false
-        }
-      },
-      "tag": "🇦🇹 Австрия | VLESS TCP Reality (2)"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "ai.smrtai.top",
+            "address": "36a466g.fi1.h1clayd.click",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "086bf957-9cd0-4e55-8280-bbef10435b41",
+                "id": "9a0e84f8-4b58-477f-99da-5fac5a2e58e8",
                 "level": 8
               }
             ]
@@ -3752,186 +3529,22 @@
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "grpc",
         "security": "reality",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
         "realitySettings": {
           "allowInsecure": false,
-          "publicKey": "R-w7BpNgtryZRBMyRoHx81OnjzAwrKhVtV1EUKLFJzc",
-          "serverName": "www.cloudflare.com",
-          "shortId": "086bf957",
+          "publicKey": "pAgrBKJCmuSJHIzYkEJTqsOBOVBK_DMtEqFPo-PaTkg",
+          "serverName": "36a466g.fi1.h1clayd.click",
+          "shortId": "b3c9d0c6bdd114a6",
           "show": false
-        }
-      },
-      "tag": "🇫🇷 Франция | VLESS TCP Reality (3)"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "169.40.42.104",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "d65cc14c-f53f-4fe2-b262-97856601319c",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
         },
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "ios",
-          "publicKey": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "serverName": "yahoo.com",
-          "shortId": "c39cc7310a",
-          "show": false
+        "grpcSettings": {
+          "serviceName": "0adb9638509b",
+          "idle_timeout": 60,
+          "health_check_timeout": 20
         }
       },
-      "tag": "🇺🇸 США | VLESS TCP Reality (3)"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "de.soft10.ir",
-            "port": 8080,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "8be3e9b2-54e6-490c-ad5f-5a372765ffae",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "chrome",
-          "publicKey": "Au0lpWqAPpK0aNuc3Uwcsf7fB1B2w2LXzdC1CVKb1ik",
-          "serverName": "staticview.microsoft.com",
-          "shortId": "a8235bf7eb8fca",
-          "show": false
-        }
-      },
-      "tag": "🇧🇬 Болгария | VLESS TCP Reality"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "169.40.42.225",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "d65cc14c-f53f-4fe2-b262-97856601319c",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "chrome",
-          "publicKey": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "serverName": "yahoo.com",
-          "shortId": "c39cc7310a",
-          "show": false
-        }
-      },
-      "tag": "🇺🇸 США | VLESS TCP Reality (4)"
-    },
-    {
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "lv1.vpngold.ru",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "a52fd54b-ba4d-4d11-8e00-301e2646cd66",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "firefox",
-          "publicKey": "1H1DiBCBB7fpALV71pH1q66ePybBFlVOcxftdlQimQ8",
-          "serverName": "lv1.vpngold.ru",
-          "shortId": "385cb18df0892069",
-          "show": false
-        }
-      },
-      "tag": "🇱🇻 Латвия | VLESS TCP Reality (3)"
+      "tag": "🇫🇮 Финляндия | VLESS gRPC Reality"
     },
     {
       "protocol": "freedom",
@@ -3955,105 +3568,102 @@
     "balancers": [
       {
         "selector": [
-          "🇰🇿 Казахстан | VLESS RAW Reality",
-          "🇫🇷 Франция | VLESS RAW Reality",
-          "🇭🇰 Гонконг | HYSTERIA2 UDP",
-          "🇯🇵 Япония | VLESS RAW Reality",
-          "🇦🇲 Армения | VLESS TCP Reality",
-          "🇵🇱 Польша | VLESS TCP Reality",
-          "🇰🇷 Корея | HYSTERIA2 UDP",
-          "🇺🇦 Украина | VLESS TCP Reality",
-          "🇰🇷 Корея | HYSTERIA2 UDP (2)",
-          "🇰🇷 Корея | VLESS TCP Reality",
-          "🇯🇵 Япония | HYSTERIA2 UDP",
-          "🇯🇵 Япония | VLESS WS TLS",
-          "🇸🇪 Швеция | VLESS TCP Reality",
-          "🇰🇷 Корея | HYSTERIA2 UDP (3)",
-          "🇰🇷 Корея | HYSTERIA2 UDP (4)",
-          "🇲🇾 Малайзия | VLESS WS TLS",
-          "🇮🇱 Израиль | VLESS RAW Reality",
-          "🇱🇻 Латвия | VLESS TCP Reality",
-          "🇷🇺 Россия | VLESS TCP Reality",
+          "🇨🇳 Китай | VLESS TCP Reality",
+          "🇧🇬 Болгария | VLESS TCP Reality",
+          "🇦🇱 Албания | VLESS TCP Reality",
+          "🇧🇷 Бразилия | TROJAN TCP TLS",
+          "🇰🇷 Корея | VMESS RAW",
+          "🇰🇷 Корея | VMESS RAW (2)",
+          "🇨🇾 Кипр | TROJAN WS TLS",
+          "🇹🇷 Турция | TROJAN WS TLS",
           "🇫🇷 Франция | VLESS TCP Reality",
-          "🇲🇽 Мексика | VLESS TCP Reality",
-          "🇹🇷 Турция | VLESS TCP Reality",
-          "🇲🇩 Молдова | VLESS gRPC Reality",
-          "🇷🇸 Сербия | VLESS gRPC Reality",
-          "🇮🇳 Индия | VLESS TCP Reality",
-          "🇹🇷 Турция | VLESS TCP Reality (2)",
-          "🇸🇬 Сингапур | VLESS TCP Reality",
-          "🇨🇦 Канада | VLESS WS TLS",
-          "🇭🇰 Гонконг | VLESS TCP TLS",
-          "🇹🇷 Турция | VLESS XHTTP Reality",
-          "🇹🇷 Турция | VLESS TCP Reality (3)",
-          "🇮🇷 Иран | VLESS TCP TLS",
-          "🇸🇬 Сингапур | VLESS TCP Reality (2)",
-          "🇮🇳 Индия | VLESS WS TLS",
-          "🇮🇳 Индия | VLESS WS TLS (2)",
-          "🇰🇿 Казахстан | VLESS TCP Reality",
-          "🇮🇷 Иран | VLESS TCP TLS (2)",
-          "🇺🇦 Украина | VLESS TCP Reality (2)",
-          "🇸🇬 Сингапур | VLESS TCP Reality (3)",
-          "🇮🇷 Иран | VLESS TCP TLS (3)",
-          "🇺🇦 Украина | VLESS TCP Reality (3)",
-          "🇺🇦 Украина | VLESS TCP Reality (4)",
-          "🇯🇵 Япония | VLESS WS TLS (2)",
-          "🇫🇮 Финляндия | VLESS WS TLS",
-          "🇷🇸 Сербия | VLESS gRPC Reality (2)",
+          "🇪🇪 Эстония | VLESS WS TLS",
           "🇫🇷 Франция | VLESS TCP Reality (2)",
-          "🇱🇻 Латвия | VLESS TCP Reality (2)",
-          "🇱🇻 Латвия | TROJAN WS TLS",
-          "🇨🇦 Канада | VLESS WS TLS (2)",
+          "🇰🇷 Корея | VMESS TCP",
+          "🇧🇾 Беларусь | TROJAN WS TLS",
+          "🇲🇩 Молдова | TROJAN WS TLS",
+          "🇨🇭 Швейцария | TROJAN WS TLS",
+          "🇰🇿 Казахстан | TROJAN WS TLS",
+          "🇰🇿 Казахстан | TROJAN WS TLS (2)",
+          "🇲🇾 Малайзия | TROJAN WS TLS",
+          "🇸🇬 Сингапур | VLESS TCP Reality",
+          "🇬🇧 Англия | TROJAN TCP TLS",
+          "🇸🇪 Швеция | VLESS RAW Reality",
+          "🇪🇪 Эстония | VLESS WS TLS (2)",
+          "🇸🇪 Швеция | VLESS RAW Reality (2)",
+          "🇵🇱 Польша | VLESS RAW Reality",
+          "🇬🇧 Англия | TROJAN TCP TLS (2)",
+          "🇨🇭 Швейцария | TROJAN TCP TLS",
+          "🇨🇳 Китай | VLESS TCP Reality (2)",
+          "🇸🇬 Сингапур | VLESS TCP Reality (2)",
+          "🇦🇹 Австрия | VLESS TCP Reality",
+          "🇹🇷 Турция | VLESS TCP Reality",
+          "🇫🇷 Франция | TROJAN TCP TLS",
+          "🇱🇹 Литва | VLESS TCP Reality",
+          "🇫🇷 Франция | VLESS TCP Reality (3)",
+          "🇸🇬 Сингапур | VLESS RAW Reality",
+          "🇵🇱 Польша | VLESS gRPC TLS",
+          "🇸🇪 Швеция | VLESS TCP Reality",
+          "🇲🇩 Молдова | VLESS gRPC Reality",
+          "🇯🇵 Япония | TROJAN TCP TLS",
+          "🇷🇸 Сербия | VLESS gRPC Reality",
+          "🇦🇹 Австрия | VLESS TCP Reality (2)",
+          "🇫🇮 Финляндия | HYSTERIA2 UDP",
+          "🇷🇸 Сербия | VLESS gRPC Reality (2)",
+          "🇵🇱 Польша | VLESS gRPC TLS (2)",
           "🇮🇳 Индия | VMESS WS",
-          "🇩🇪 Германия | VLESS WS TLS",
-          "🇸🇬 Сингапур | VLESS TCP Reality (4)",
-          "🇸🇬 Сингапур | VLESS TCP Reality (5)",
-          "🇷🇺 Россия | VLESS TCP Reality (2)",
+          "🇭🇰 Гонконг | VMESS WS",
+          "🇭🇰 Гонконг | HYSTERIA2 UDP",
+          "🇭🇰 Гонконг | HYSTERIA2 UDP (2)",
+          "🇵🇱 Польша | VLESS TCP Reality",
+          "🇷🇸 Сербия | VLESS gRPC Reality (3)",
+          "🇫🇮 Финляндия | VLESS XHTTP TLS",
+          "🇯🇵 Япония | VMESS WS",
+          "🇸🇬 Сингапур | VLESS RAW Reality (2)",
+          "🇷🇸 Сербия | VLESS gRPC Reality (4)",
+          "🇨🇿 Чехия | TROJAN WS TLS",
+          "🇪🇸 Испания | TROJAN WS TLS",
+          "🇫🇮 Финляндия | HYSTERIA2 UDP (2)",
+          "🇨🇿 Чехия | TROJAN WS TLS (2)",
+          "🇹🇷 Турция | TROJAN WS TLS (2)",
+          "🇭🇰 Гонконг | VMESS WS (2)",
+          "🇭🇰 Гонконг | VMESS WS (3)",
+          "🇷🇸 Сербия | VLESS gRPC Reality (5)",
+          "🇳🇱 Нидерланды | VLESS TCP Reality",
+          "🇳🇱 Нидерланды | VLESS XHTTP Reality",
+          "🇰🇷 Корея | VMESS RAW (3)",
+          "🇩🇪 Германия | VLESS RAW Reality",
+          "🇳🇱 Нидерланды | VLESS RAW TLS",
+          "🇺🇸 США | TROJAN WS TLS",
+          "🇰🇷 Корея | VMESS TCP (2)",
+          "🇺🇸 США | VLESS TCP Reality",
+          "🇷🇺 Россия | VLESS WS TLS",
+          "🇷🇺 Россия | VLESS WS TLS (2)",
+          "🇺🇸 США | VLESS TCP Reality (2)",
+          "🇺🇸 США | VLESS TCP Reality (3)",
+          "🇫🇮 Финляндия | TROJAN WS TLS",
+          "🇩🇪 Германия | TROJAN WS TLS",
+          "🇫🇷 Франция | TROJAN WS TLS",
+          "🇩🇪 Германия | TROJAN WS TLS (2)",
+          "🇵🇹 Португалия | TROJAN WS TLS",
+          "🇲🇩 Молдова | TROJAN WS TLS (2)",
+          "🇷🇺 Россия | VLESS TCP Reality",
+          "🇸🇪 Швеция | TROJAN WS TLS",
+          "🇸🇬 Сингапур | TROJAN WS TLS",
+          "🇨🇦 Канада | VLESS WS TLS",
+          "🇦🇹 Австрия | VLESS TCP Reality (3)",
+          "🇨🇦 Канада | VLESS WS TLS (2)",
           "🇨🇦 Канада | VLESS WS TLS (3)",
           "🇨🇦 Канада | VLESS WS TLS (4)",
-          "🇫🇮 Финляндия | VLESS WS TLS (2)",
-          "🇷🇺 Россия | VLESS RAW Reality",
-          "🇬🇧 Англия | VLESS TCP Reality",
-          "🇳🇱 Нидерланды | VLESS RAW Reality",
-          "🇳🇱 Нидерланды | VLESS RAW Reality (2)",
-          "🇳🇱 Нидерланды | VLESS TCP Reality",
-          "🇨🇳 Китай | VLESS RAW Reality",
-          "🇧🇬 Болгария | VLESS RAW Reality",
+          "🇱🇹 Литва | VLESS RAW Reality",
+          "🇳🇱 Нидерланды | VLESS XHTTP Reality (2)",
+          "🇳🇱 Нидерланды | VLESS TCP Reality (2)",
           "🇩🇪 Германия | VLESS XHTTP Reality",
           "🇩🇪 Германия | VLESS TCP Reality",
-          "🇫🇮 Финляндия | VLESS TCP Reality",
-          "🇸🇰 Словакия | VLESS RAW TLS",
-          "🇫🇮 Финляндия | VLESS RAW Reality",
-          "🇳🇱 Нидерланды | VLESS XHTTP Reality",
-          "🇵🇱 Польша | VLESS RAW Reality",
-          "🇷🇺 Россия | VLESS TCP Reality (3)",
-          "🇲🇽 Мексика | VLESS TCP Reality (2)",
-          "🇲🇽 Мексика | VLESS RAW Reality",
-          "🇩🇪 Германия | VLESS RAW Reality",
-          "🇩🇪 Германия | VLESS WS TLS (2)",
-          "🇬🇧 Англия | TROJAN TCP TLS",
-          "🇳🇱 Нидерланды | VLESS XHTTP Reality (2)",
-          "🇫🇮 Финляндия | VLESS TCP Reality (2)",
-          "🇩🇪 Германия | VLESS TCP Reality (2)",
-          "🇵🇱 Польша | VLESS TCP Reality (2)",
-          "🇫🇷 Франция | VLESS RAW Reality (2)",
-          "🇵🇱 Польша | VLESS TCP Reality (3)",
-          "🇪🇪 Эстония | VLESS TCP Reality",
-          "🇹🇷 Турция | VLESS TCP Reality (4)",
-          "🇺🇸 США | VLESS TCP Reality",
-          "🇺🇸 США | VMESS TCP",
-          "🇪🇸 Испания | TROJAN TCP TLS",
-          "🇬🇧 Англия | VLESS TCP Reality (2)",
-          "🇮🇱 Израиль | VLESS RAW Reality (2)",
-          "🇦🇹 Австрия | VLESS TCP Reality",
-          "🇺🇸 США | VLESS TCP Reality (2)",
-          "🇦🇲 Армения | VLESS TCP Reality (2)",
-          "🇦🇹 Австрия | VLESS TCP Reality (2)",
-          "🇫🇷 Франция | VLESS TCP Reality (3)",
-          "🇺🇸 США | VLESS TCP Reality (3)",
-          "🇧🇬 Болгария | VLESS TCP Reality",
-          "🇺🇸 США | VLESS TCP Reality (4)",
-          "🇱🇻 Латвия | VLESS TCP Reality (3)"
+          "🇷🇺 Россия | VLESS XHTTP Reality",
+          "🇵🇱 Польша | VLESS RAW Reality (2)",
+          "🇷🇺 Россия | VLESS TCP Reality (2)",
+          "🇫🇮 Финляндия | VLESS gRPC Reality"
         ],
         "tag": "balancer"
       }
